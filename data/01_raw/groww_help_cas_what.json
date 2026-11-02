@@ -1,0 +1,39 @@
+{
+  "doc_type": "groww_help",
+  "extractor_version": "article_v1",
+  "facts": {
+    "definition": {
+      "label": "Definition",
+      "section": "definition",
+      "text": "Definition: CAS stands for Consolidated Account Statement 📊, issued by CAMS/KFin Technologies. It's a detailed statement that summarizes all your investments linked to your email ID and PAN, covering various financial products like Mutual Funds, Stocks, and other securities.",
+      "unit": null,
+      "value": "CAS stands for Consolidated Account Statement 📊, issued by CAMS/KFin Technologies. It's a detailed statement that summarizes all your investments linked to your email ID and PAN, covering various financial products like Mutual Funds, Stocks, and other securities."
+    }
+  },
+  "fetched_at": "2026-11-01T07:17:30Z",
+  "final_url": "https://groww.in/help/mutual-funds/mf-track-and-switch/what-is-cas--why-is-it-needed--99",
+  "role": "support",
+  "schema_version": 1,
+  "scheme": null,
+  "sections": [
+    {
+      "heading": "What is CAS and why do I need it?",
+      "items": [
+        "Track Investments: It helps you see all your investments in one place.",
+        "Tax Filing: It's handy for tax filing as it shows your earnings and capital gains."
+      ],
+      "name": "definition",
+      "paragraphs": [
+        "CAS stands for Consolidated Account Statement 📊, issued by CAMS/KFin Technologies. It's a detailed statement that summarizes all your investments linked to your email ID and PAN, covering various financial products like Mutual Funds, Stocks, and other securities.",
+        "Why is CAS important?",
+        "Keep your CAS handy to stay on top of your investment game!"
+      ]
+    }
+  ],
+  "source_date": "2026-11-01",
+  "source_id": "groww_help_cas_what",
+  "source_priority": 2,
+  "title": "What is CAS and why do I need it?",
+  "url": "https://groww.in/help/mutual-funds/mf-track-and-switch/what-is-cas--why-is-it-needed--99",
+  "warnings": []
+}

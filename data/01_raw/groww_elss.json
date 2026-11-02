@@ -1,0 +1,136 @@
+{
+  "doc_type": "groww_scheme",
+  "extractor_version": "groww_scheme_v1",
+  "facts": {
+    "benchmark": {
+      "label": "Benchmark",
+      "section": "benchmark",
+      "text": "Benchmark: NIFTY 500 Total Return Index",
+      "unit": null,
+      "value": "NIFTY 500 Total Return Index"
+    },
+    "exit_load": {
+      "label": "Exit load",
+      "section": "exit_load",
+      "text": "Exit load: Nil",
+      "unit": null,
+      "value": "Nil"
+    },
+    "expense_ratio": {
+      "label": "Expense ratio",
+      "section": "key_stats",
+      "text": "Expense ratio: 1.2%",
+      "unit": "%",
+      "value": "1.2"
+    },
+    "lock_in": {
+      "label": "Lock-in period",
+      "section": "lock_in",
+      "text": "Lock-in period: 3 years",
+      "unit": null,
+      "value": "3 years"
+    },
+    "minimum_lumpsum": {
+      "label": "Minimum lumpsum investment",
+      "section": "minimum_investments",
+      "text": "Minimum lumpsum investment: ₹500",
+      "unit": "INR",
+      "value": "500"
+    },
+    "minimum_sip": {
+      "label": "Minimum SIP",
+      "section": "minimum_investments",
+      "text": "Minimum SIP: ₹500",
+      "unit": "INR",
+      "value": "500"
+    },
+    "riskometer": {
+      "label": "Riskometer level",
+      "section": "key_stats",
+      "text": "Riskometer level: Very High Risk",
+      "unit": null,
+      "value": "Very High"
+    }
+  },
+  "fetched_at": "2026-11-01T07:17:18Z",
+  "final_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+  "role": "core",
+  "schema_version": 1,
+  "scheme": {
+    "amc": "HDFC Mutual Fund",
+    "category": "ELSS",
+    "option": "Growth",
+    "plan": "Direct",
+    "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+    "scheme_slug": "hdfc-elss-tax-saver-direct-growth"
+  },
+  "sections": [
+    {
+      "heading": "Scheme basics",
+      "items": [
+        "Scheme name: HDFC ELSS Tax Saver Fund Direct Plan Growth",
+        "AMC: HDFC Mutual Fund",
+        "Category: ELSS",
+        "Plan: Direct",
+        "Option: Growth",
+        "Launch date: 2013-01-01",
+        "ISIN: INF179K01YS4",
+        "Registrar: CAMS"
+      ],
+      "name": "scheme_basics",
+      "paragraphs": []
+    },
+    {
+      "heading": "Key stats",
+      "items": [
+        "Expense ratio: 1.2%",
+        "Fund size (AUM): ₹14,948.70 Cr",
+        "NAV: ₹1,434.91 (as of 2026-10-30)"
+      ],
+      "name": "key_stats",
+      "paragraphs": []
+    },
+    {
+      "heading": "Minimum investments",
+      "items": [
+        "Minimum SIP: ₹500",
+        "Minimum lumpsum investment: ₹500",
+        "Minimum additional investment: ₹500"
+      ],
+      "name": "minimum_investments",
+      "paragraphs": []
+    },
+    {
+      "heading": "Exit load",
+      "items": [],
+      "name": "exit_load",
+      "paragraphs": [
+        "Exit load: Nil"
+      ]
+    },
+    {
+      "heading": "Lock-in",
+      "items": [],
+      "name": "lock_in",
+      "paragraphs": [
+        "Lock-in period: 3 years"
+      ]
+    },
+    {
+      "heading": "Benchmark",
+      "items": [],
+      "name": "benchmark",
+      "paragraphs": [
+        "Benchmark: NIFTY 500 Total Return Index"
+      ]
+    }
+  ],
+  "source_date": "2026-10-30",
+  "source_id": "groww_elss",
+  "source_priority": 1,
+  "title": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+  "url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+  "warnings": [
+    "investment objective dropped: performance or advice wording"
+  ]
+}

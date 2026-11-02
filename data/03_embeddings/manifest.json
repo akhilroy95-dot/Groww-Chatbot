@@ -1,0 +1,12 @@
+{
+  "chunks_sha256": "706895912782785fe848354bb9cfed118222cd3c014c9d6ca4d5b425218373c6",
+  "config_sha256": "f69f5e13c2f9a5433448ea8d808855a7c4dc2207625d6fdbe50d7de5f22c7e22",
+  "count": 54,
+  "created_at": "2026-11-02T16:41:09Z",
+  "dimension": 384,
+  "dtype": "float32",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embeddings_sha256": "80fd8c5b52c7de5104b21fec57f6befa0223fb7b513273da512c1b6335cbfd28",
+  "normalized": true,
+  "revision": "main"
+}

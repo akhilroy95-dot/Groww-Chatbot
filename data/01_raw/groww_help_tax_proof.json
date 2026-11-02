@@ -1,0 +1,47 @@
+{
+  "doc_type": "groww_help",
+  "extractor_version": "article_v1",
+  "facts": {
+    "statement_download": {
+      "label": "Statement download",
+      "section": "statement_steps",
+      "text": "Steps: 1. Go to your profile. 2. Select the 'Reports' option. 3. Under 'Tax', find 'Mutual Fund - Capital Gains'. 4. Choose the financial year and click 'Download'.",
+      "unit": null,
+      "value": "4 steps"
+    }
+  },
+  "fetched_at": "2026-11-01T07:17:23Z",
+  "final_url": "https://groww.in/help/my-account/ma-others/where-can-i-get-the-tax-proof-for-section-80c",
+  "role": "support",
+  "schema_version": 1,
+  "scheme": null,
+  "sections": [
+    {
+      "heading": "Where can I get the tax proof for section 80C?",
+      "items": [],
+      "name": "answer",
+      "paragraphs": [
+        "You can request your tax proof for Section 80C by downloading the Mutual Fund-ELSS statement.",
+        "Steps to request your ELSS Statement:",
+        "Click the button below to go directly to the 'Reports' section."
+      ]
+    },
+    {
+      "heading": "Steps",
+      "items": [
+        "Go to your profile.",
+        "Select the 'Reports' option.",
+        "Under 'Tax', find 'Mutual Fund - Capital Gains'.",
+        "Choose the financial year and click 'Download'."
+      ],
+      "name": "statement_steps",
+      "paragraphs": []
+    }
+  ],
+  "source_date": "2026-11-01",
+  "source_id": "groww_help_tax_proof",
+  "source_priority": 2,
+  "title": "Where can I get the tax proof for section 80C?",
+  "url": "https://groww.in/help/my-account/ma-others/where-can-i-get-the-tax-proof-for-section-80c",
+  "warnings": []
+}

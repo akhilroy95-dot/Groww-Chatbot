@@ -1,0 +1,41 @@
+# Core (phases 0-2)
+pyyaml>=6.0
+pydantic>=2.6
+python-dotenv>=1.0
+httpx>=0.27
+tenacity>=8.2
+selectolax>=0.3.21
+beautifulsoup4>=4.12
+lxml>=5.0
+tiktoken>=0.6
+rapidfuzz>=3.6
+numpy>=1.26
+
+# Embedding + vector store (phases 3-4)
+sentence-transformers>=2.6
+torch>=2.2
+chromadb>=0.5
+# NOTE for Python 3.15: chromadb declares onnxruntime, which has no cp315 wheel.
+# Only chromadb's optional ONNX default embedding uses it; this project supplies
+# its own MiniLM vectors. On 3.15 install the package and its runtime deps with:
+#   pip install --no-deps chromadb==1.5.9
+#   pip install build pydantic-settings pybase64 "uvicorn[standard]" overrides
+#               importlib-resources grpcio bcrypt typer kubernetes mmh3 orjson rich
+#               jsonschema opentelemetry-api opentelemetry-sdk
+#               opentelemetry-exporter-otlp-proto-grpc tokenizers pypika tqdm
+# See Docs/BUILD_LOG.md phase 4 environment notes.
+
+# Generation (phase 6) — only the active adapter's SDK is imported at runtime
+groq>=0.9
+openai>=1.30
+google-genai>=0.3
+anthropic>=0.34
+mistralai>=0.4
+
+# UI (phase 6)
+streamlit>=1.66
+
+# Dev
+pytest>=8.0
+pytest-cov>=5.0
+ruff>=0.4

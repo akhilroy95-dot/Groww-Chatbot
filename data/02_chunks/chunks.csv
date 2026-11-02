@@ -1,0 +1,423 @@
+chunk_id,doc_id,source_url,source_title,source_owner,source_priority,scraped_at,source_date,scheme_slug,scheme_name,amc,category,plan,option,fact_type,section,chunk_type,text,token_count,content_sha256,chunker_version
+groww_amc_hdfc__amc_overview__db1f1cef,groww_amc_hdfc,https://groww.in/mutual-funds/amc/hdfc-mutual-funds,Groww - HDFC Mutual Fund (AMC overview),Groww,1,2026-11-01T07:17:14Z,2026-11-01,,,HDFC Mutual Fund,,,,amc_overview,amc_overview,fact_card,"AMC: HDFC Mutual Fund
+Fact: AMC overview
+Value: HDFC Mutual Fund. Incorporated: 1999-12-10; Total AUM: ₹934,076.00 Cr; Sponsor: HDFC Ltd., Abrdn Investment Management Limited (AIML) erstwhile (Standard Life Investments).
+Source: https://groww.in/mutual-funds/amc/hdfc-mutual-funds
+Scraped: 2026-11-01",75,db1f1cef51476ce22c187a67338477ba378ad012489e926e7a456e6fa4858088,structure_aware_fact_cards_v1
+groww_amc_hdfc__amc_overview__6cf889b3,groww_amc_hdfc,https://groww.in/mutual-funds/amc/hdfc-mutual-funds,Groww - HDFC Mutual Fund (AMC overview),Groww,1,2026-11-01T07:17:14Z,2026-11-01,,,HDFC Mutual Fund,,,,amc_overview,amc_overview,fact_group,"AMC: HDFC Mutual Fund
+Fact: AMC key information
+Fund house: HDFC Mutual Fund
+Incorporated: 1999-12-10
+Total AUM: ₹934,076.00 Cr
+Sponsor: HDFC Ltd., Abrdn Investment Management Limited (AIML) erstwhile (Standard Life Investments)
+Source: https://groww.in/mutual-funds/amc/hdfc-mutual-funds
+Scraped: 2026-11-01",77,6cf889b330d2c60b31b69ddab9d86a87f13607735425f2dc26e102fbd1495afd,structure_aware_fact_cards_v1
+groww_amc_hdfc__amc_overview__1b2979df,groww_amc_hdfc,https://groww.in/mutual-funds/amc/hdfc-mutual-funds,Groww - HDFC Mutual Fund (AMC overview),Groww,1,2026-11-01T07:17:14Z,2026-11-01,,,HDFC Mutual Fund,,,,amc_overview,about,narrative,"AMC: HDFC Mutual Fund
+Fact: About the AMC
+HDFC Asset Management Company Ltd., or HDFC Mutual Fund, is currently the largest mutual fund and actively managed equity mutual fund in India. It is one of the most profitable asset management companies (AMC) in the country.
+The company serviced more than 75000 empanelled distribution partners through 210 branches spread across more than 200 cities in India.
+HDFC Asset Management Company Ltd. received approval to act as an AMC from SEBI back on 30 June 2000 under the registration number MF/044/00/6.
+Source: https://groww.in/mutual-funds/amc/hdfc-mutual-funds
+Scraped: 2026-11-01",157,1b2979df4dcc4163e29d8298777cc0472c0c51439eaefb2340c35cd3209f6759,structure_aware_fact_cards_v1
+groww_large_cap__expense_ratio__92f74d22,groww_large_cap,https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth,Groww - HDFC Large Cap Fund Direct Growth,Groww,1,2026-11-01T07:17:00Z,2026-10-30,hdfc-large-cap-direct-growth,HDFC Large Cap Fund Direct Growth,HDFC Mutual Fund,Large Cap,Direct,Growth,expense_ratio,key_stats,fact_card,"Scheme: HDFC Large Cap Fund Direct Growth
+AMC: HDFC Mutual Fund | Category: Large Cap | Plan: Direct | Option: Growth
+Fact: Expense ratio
+Value: 1.02%
+Source: https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth
+Scraped: 2026-11-01",61,92f74d22af5b51db934ce91bee46f20085670e642b22674fc4e8b41402196320,structure_aware_fact_cards_v1
+groww_large_cap__exit_load__e67e7c2e,groww_large_cap,https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth,Groww - HDFC Large Cap Fund Direct Growth,Groww,1,2026-11-01T07:17:00Z,2026-10-30,hdfc-large-cap-direct-growth,HDFC Large Cap Fund Direct Growth,HDFC Mutual Fund,Large Cap,Direct,Growth,exit_load,exit_load,fact_card,"Scheme: HDFC Large Cap Fund Direct Growth
+AMC: HDFC Mutual Fund | Category: Large Cap | Plan: Direct | Option: Growth
+Fact: Exit load
+Value: 1% if redeemed within 1 year
+Source: https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth
+Scraped: 2026-11-01",66,e67e7c2e52b55384942d25cb4de240d27e9ab38f4c1a71c6c409354f026577b8,structure_aware_fact_cards_v1
+groww_large_cap__riskometer__3d85d52b,groww_large_cap,https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth,Groww - HDFC Large Cap Fund Direct Growth,Groww,1,2026-11-01T07:17:00Z,2026-10-30,hdfc-large-cap-direct-growth,HDFC Large Cap Fund Direct Growth,HDFC Mutual Fund,Large Cap,Direct,Growth,riskometer,key_stats,fact_card,"Scheme: HDFC Large Cap Fund Direct Growth
+AMC: HDFC Mutual Fund | Category: Large Cap | Plan: Direct | Option: Growth
+Fact: Riskometer level
+Value: Very High Risk
+Source: https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth
+Scraped: 2026-11-01",64,3d85d52bf43cfce2c1c2cc132ae2ef3eb4584ee19893dbe4a08043429a03a9d7,structure_aware_fact_cards_v1
+groww_large_cap__benchmark__e991b807,groww_large_cap,https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth,Groww - HDFC Large Cap Fund Direct Growth,Groww,1,2026-11-01T07:17:00Z,2026-10-30,hdfc-large-cap-direct-growth,HDFC Large Cap Fund Direct Growth,HDFC Mutual Fund,Large Cap,Direct,Growth,benchmark,benchmark,fact_card,"Scheme: HDFC Large Cap Fund Direct Growth
+AMC: HDFC Mutual Fund | Category: Large Cap | Plan: Direct | Option: Growth
+Fact: Benchmark
+Value: NIFTY 100 Total Return Index
+Source: https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth
+Scraped: 2026-11-01",66,e991b807b0bb3f8f42c8e8d0a67f3e0de10eb40cd61b34f5b5be5582ce0d89f3,structure_aware_fact_cards_v1
+groww_large_cap__aum__ef70a419,groww_large_cap,https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth,Groww - HDFC Large Cap Fund Direct Growth,Groww,1,2026-11-01T07:17:00Z,2026-10-30,hdfc-large-cap-direct-growth,HDFC Large Cap Fund Direct Growth,HDFC Mutual Fund,Large Cap,Direct,Growth,aum,key_stats,fact_card,"Scheme: HDFC Large Cap Fund Direct Growth
+AMC: HDFC Mutual Fund | Category: Large Cap | Plan: Direct | Option: Growth
+Fact: Fund size (AUM)
+Value: ₹37,293.90 Cr
+Source: https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth
+Scraped: 2026-11-01",63,ef70a419cbfed5e16332daaf98260adbfff0f296a0054dc7aa80efe8490ce98d,structure_aware_fact_cards_v1
+groww_large_cap__minimum_sip__a9b645b7,groww_large_cap,https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth,Groww - HDFC Large Cap Fund Direct Growth,Groww,1,2026-11-01T07:17:00Z,2026-10-30,hdfc-large-cap-direct-growth,HDFC Large Cap Fund Direct Growth,HDFC Mutual Fund,Large Cap,Direct,Growth,minimum_sip,minimum_investments,fact_group,"Scheme: HDFC Large Cap Fund Direct Growth
+AMC: HDFC Mutual Fund | Category: Large Cap | Plan: Direct | Option: Growth
+Fact: Minimum investments
+Minimum SIP: ₹100
+Minimum lumpsum investment: ₹100
+Minimum additional investment: ₹100
+Source: https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth
+Scraped: 2026-11-01",81,a9b645b78701c74a886efabe734926afc4bb92a2ee262b7f49dfc7d7be70bed2,structure_aware_fact_cards_v1
+groww_large_cap__scheme_basics__0a76c87f,groww_large_cap,https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth,Groww - HDFC Large Cap Fund Direct Growth,Groww,1,2026-11-01T07:17:00Z,2026-10-30,hdfc-large-cap-direct-growth,HDFC Large Cap Fund Direct Growth,HDFC Mutual Fund,Large Cap,Direct,Growth,scheme_basics,scheme_basics,fact_group,"Scheme: HDFC Large Cap Fund Direct Growth
+AMC: HDFC Mutual Fund | Category: Large Cap | Plan: Direct | Option: Growth
+Fact: Scheme basics
+Scheme name: HDFC Large Cap Fund Direct Growth
+AMC: HDFC Mutual Fund
+Category: Large Cap
+Plan: Direct
+Option: Growth
+Launch date: 2013-01-01
+ISIN: INF179K01YV8
+Registrar: CAMS
+Source: https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth
+Scraped: 2026-11-01",102,0a76c87ff91290a335006a2151cd21d634e2a7c74f73bbe941df225375bb5cb2,structure_aware_fact_cards_v1
+groww_large_cap__scheme_basics__89d4377f,groww_large_cap,https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth,Groww - HDFC Large Cap Fund Direct Growth,Groww,1,2026-11-01T07:17:00Z,2026-10-30,hdfc-large-cap-direct-growth,HDFC Large Cap Fund Direct Growth,HDFC Mutual Fund,Large Cap,Direct,Growth,scheme_basics,about,narrative,"Scheme: HDFC Large Cap Fund Direct Growth
+AMC: HDFC Mutual Fund | Category: Large Cap | Plan: Direct | Option: Growth
+Fact: Investment objective
+The scheme seeks to provide long-term capital appreciation/income by investing predominantly in Large-Cap companies.
+Source: https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth
+Scraped: 2026-11-01",89,89d4377f27f85fc31b9960abf1c8e39b8a8dd901f05da417e9363c28256cadfe,structure_aware_fact_cards_v1
+groww_flexi_cap__expense_ratio__315e1548,groww_flexi_cap,https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth,Groww - HDFC Flexi Cap Direct Plan Growth,Groww,1,2026-11-01T07:17:16Z,2026-10-30,hdfc-flexi-cap-direct-growth,HDFC Flexi Cap Direct Plan Growth,HDFC Mutual Fund,Flexi Cap,Direct,Growth,expense_ratio,key_stats,fact_card,"Scheme: HDFC Flexi Cap Direct Plan Growth
+AMC: HDFC Mutual Fund | Category: Flexi Cap | Plan: Direct | Option: Growth
+Fact: Expense ratio
+Value: 0.75%
+Source: https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+Scraped: 2026-11-01",60,315e1548a7df01c83573e7cc92b21e452a1c0fff1f43416e3aad70676853df03,structure_aware_fact_cards_v1
+groww_flexi_cap__exit_load__7cbcb708,groww_flexi_cap,https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth,Groww - HDFC Flexi Cap Direct Plan Growth,Groww,1,2026-11-01T07:17:16Z,2026-10-30,hdfc-flexi-cap-direct-growth,HDFC Flexi Cap Direct Plan Growth,HDFC Mutual Fund,Flexi Cap,Direct,Growth,exit_load,exit_load,fact_card,"Scheme: HDFC Flexi Cap Direct Plan Growth
+AMC: HDFC Mutual Fund | Category: Flexi Cap | Plan: Direct | Option: Growth
+Fact: Exit load
+Value: 1% if redeemed within 1 year
+Source: https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+Scraped: 2026-11-01",65,7cbcb7086e1e5cb01e955bbc50151445376a385b357d196f13d9a1c5164f546f,structure_aware_fact_cards_v1
+groww_flexi_cap__riskometer__e251be6e,groww_flexi_cap,https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth,Groww - HDFC Flexi Cap Direct Plan Growth,Groww,1,2026-11-01T07:17:16Z,2026-10-30,hdfc-flexi-cap-direct-growth,HDFC Flexi Cap Direct Plan Growth,HDFC Mutual Fund,Flexi Cap,Direct,Growth,riskometer,key_stats,fact_card,"Scheme: HDFC Flexi Cap Direct Plan Growth
+AMC: HDFC Mutual Fund | Category: Flexi Cap | Plan: Direct | Option: Growth
+Fact: Riskometer level
+Value: Very High Risk
+Source: https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+Scraped: 2026-11-01",63,e251be6ec959b9161dea7efe8eeb24798b9e101ef16a5a5f97ecc1a707080f04,structure_aware_fact_cards_v1
+groww_flexi_cap__benchmark__56b3d85b,groww_flexi_cap,https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth,Groww - HDFC Flexi Cap Direct Plan Growth,Groww,1,2026-11-01T07:17:16Z,2026-10-30,hdfc-flexi-cap-direct-growth,HDFC Flexi Cap Direct Plan Growth,HDFC Mutual Fund,Flexi Cap,Direct,Growth,benchmark,benchmark,fact_card,"Scheme: HDFC Flexi Cap Direct Plan Growth
+AMC: HDFC Mutual Fund | Category: Flexi Cap | Plan: Direct | Option: Growth
+Fact: Benchmark
+Value: NIFTY 500 Total Return Index
+Source: https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+Scraped: 2026-11-01",65,56b3d85b854daaf4fb6e9b31a452083ee7084399669613466b7f871759c02e82,structure_aware_fact_cards_v1
+groww_flexi_cap__aum__d1f14669,groww_flexi_cap,https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth,Groww - HDFC Flexi Cap Direct Plan Growth,Groww,1,2026-11-01T07:17:16Z,2026-10-30,hdfc-flexi-cap-direct-growth,HDFC Flexi Cap Direct Plan Growth,HDFC Mutual Fund,Flexi Cap,Direct,Growth,aum,key_stats,fact_card,"Scheme: HDFC Flexi Cap Direct Plan Growth
+AMC: HDFC Mutual Fund | Category: Flexi Cap | Plan: Direct | Option: Growth
+Fact: Fund size (AUM)
+Value: ₹108,547.00 Cr
+Source: https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+Scraped: 2026-11-01",63,d1f1466920009fc799cd02d11767ae05fb9de78294a4fa77c61f9c749d92c9d5,structure_aware_fact_cards_v1
+groww_flexi_cap__minimum_sip__868a042e,groww_flexi_cap,https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth,Groww - HDFC Flexi Cap Direct Plan Growth,Groww,1,2026-11-01T07:17:16Z,2026-10-30,hdfc-flexi-cap-direct-growth,HDFC Flexi Cap Direct Plan Growth,HDFC Mutual Fund,Flexi Cap,Direct,Growth,minimum_sip,minimum_investments,fact_group,"Scheme: HDFC Flexi Cap Direct Plan Growth
+AMC: HDFC Mutual Fund | Category: Flexi Cap | Plan: Direct | Option: Growth
+Fact: Minimum investments
+Minimum SIP: ₹100
+Minimum lumpsum investment: ₹100
+Minimum additional investment: ₹100
+Source: https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+Scraped: 2026-11-01",80,868a042e93fe119b5188dcea370d216e56375917cb3a9872c77f0eac654bc3d5,structure_aware_fact_cards_v1
+groww_flexi_cap__scheme_basics__3ebe6163,groww_flexi_cap,https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth,Groww - HDFC Flexi Cap Direct Plan Growth,Groww,1,2026-11-01T07:17:16Z,2026-10-30,hdfc-flexi-cap-direct-growth,HDFC Flexi Cap Direct Plan Growth,HDFC Mutual Fund,Flexi Cap,Direct,Growth,scheme_basics,scheme_basics,fact_group,"Scheme: HDFC Flexi Cap Direct Plan Growth
+AMC: HDFC Mutual Fund | Category: Flexi Cap | Plan: Direct | Option: Growth
+Fact: Scheme basics
+Scheme name: HDFC Flexi Cap Direct Plan Growth
+AMC: HDFC Mutual Fund
+Category: Flexi Cap
+Plan: Direct
+Option: Growth
+Launch date: 2013-01-01
+ISIN: INF179K01UT0
+Registrar: CAMS
+Source: https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+Scraped: 2026-11-01",101,3ebe616392ed1367ce45589d9c250e656f904d578dc0c1b7578e8e1f8cd09adf,structure_aware_fact_cards_v1
+groww_elss__expense_ratio__44fb0e86,groww_elss,https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth,Groww - HDFC ELSS Tax Saver Fund Direct Plan Growth,Groww,1,2026-11-01T07:17:18Z,2026-10-30,hdfc-elss-tax-saver-direct-growth,HDFC ELSS Tax Saver Fund Direct Plan Growth,HDFC Mutual Fund,ELSS,Direct,Growth,expense_ratio,key_stats,fact_card,"Scheme: HDFC ELSS Tax Saver Fund Direct Plan Growth
+AMC: HDFC Mutual Fund | Category: ELSS | Plan: Direct | Option: Growth
+Fact: Expense ratio
+Value: 1.2%
+Source: https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth
+Scraped: 2026-11-01",64,44fb0e8662a6878840a22769e9391f0d507b8e1029226a007745a99ade5bbc4f,structure_aware_fact_cards_v1
+groww_elss__exit_load__caee2a62,groww_elss,https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth,Groww - HDFC ELSS Tax Saver Fund Direct Plan Growth,Groww,1,2026-11-01T07:17:18Z,2026-10-30,hdfc-elss-tax-saver-direct-growth,HDFC ELSS Tax Saver Fund Direct Plan Growth,HDFC Mutual Fund,ELSS,Direct,Growth,exit_load,exit_load,fact_card,"Scheme: HDFC ELSS Tax Saver Fund Direct Plan Growth
+AMC: HDFC Mutual Fund | Category: ELSS | Plan: Direct | Option: Growth
+Fact: Exit load
+Value: Nil
+Source: https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth
+Scraped: 2026-11-01",63,caee2a62be5c5e385bf0a212228c2f854bf5f5814e6ad295e2fdb2006689121b,structure_aware_fact_cards_v1
+groww_elss__lock_in__e14ad557,groww_elss,https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth,Groww - HDFC ELSS Tax Saver Fund Direct Plan Growth,Groww,1,2026-11-01T07:17:18Z,2026-10-30,hdfc-elss-tax-saver-direct-growth,HDFC ELSS Tax Saver Fund Direct Plan Growth,HDFC Mutual Fund,ELSS,Direct,Growth,lock_in,lock_in,fact_card,"Scheme: HDFC ELSS Tax Saver Fund Direct Plan Growth
+AMC: HDFC Mutual Fund | Category: ELSS | Plan: Direct | Option: Growth
+Fact: Lock-in period
+Value: 3 years
+Source: https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth
+Scraped: 2026-11-01",65,e14ad5572ed66b4c55a973f62948284627d8a9761eab2fb6dcf37c1dec2215fd,structure_aware_fact_cards_v1
+groww_elss__riskometer__c7f6e340,groww_elss,https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth,Groww - HDFC ELSS Tax Saver Fund Direct Plan Growth,Groww,1,2026-11-01T07:17:18Z,2026-10-30,hdfc-elss-tax-saver-direct-growth,HDFC ELSS Tax Saver Fund Direct Plan Growth,HDFC Mutual Fund,ELSS,Direct,Growth,riskometer,key_stats,fact_card,"Scheme: HDFC ELSS Tax Saver Fund Direct Plan Growth
+AMC: HDFC Mutual Fund | Category: ELSS | Plan: Direct | Option: Growth
+Fact: Riskometer level
+Value: Very High Risk
+Source: https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth
+Scraped: 2026-11-01",68,c7f6e34021eb27fed6154baa19e9ff55d1193f65b50c21c6caea6836199db94d,structure_aware_fact_cards_v1
+groww_elss__benchmark__030f0f5e,groww_elss,https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth,Groww - HDFC ELSS Tax Saver Fund Direct Plan Growth,Groww,1,2026-11-01T07:17:18Z,2026-10-30,hdfc-elss-tax-saver-direct-growth,HDFC ELSS Tax Saver Fund Direct Plan Growth,HDFC Mutual Fund,ELSS,Direct,Growth,benchmark,benchmark,fact_card,"Scheme: HDFC ELSS Tax Saver Fund Direct Plan Growth
+AMC: HDFC Mutual Fund | Category: ELSS | Plan: Direct | Option: Growth
+Fact: Benchmark
+Value: NIFTY 500 Total Return Index
+Source: https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth
+Scraped: 2026-11-01",69,030f0f5e7c107f4d2dae976ea844f9c82c276db818f4748421f712240915a00e,structure_aware_fact_cards_v1
+groww_elss__aum__5c0afd81,groww_elss,https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth,Groww - HDFC ELSS Tax Saver Fund Direct Plan Growth,Groww,1,2026-11-01T07:17:18Z,2026-10-30,hdfc-elss-tax-saver-direct-growth,HDFC ELSS Tax Saver Fund Direct Plan Growth,HDFC Mutual Fund,ELSS,Direct,Growth,aum,key_stats,fact_card,"Scheme: HDFC ELSS Tax Saver Fund Direct Plan Growth
+AMC: HDFC Mutual Fund | Category: ELSS | Plan: Direct | Option: Growth
+Fact: Fund size (AUM)
+Value: ₹14,948.70 Cr
+Source: https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth
+Scraped: 2026-11-01",67,5c0afd81d07e122aa84a24e88ea0facbdc80a0e05896d5c896a33a3628ece3cc,structure_aware_fact_cards_v1
+groww_elss__minimum_sip__c90ec4cd,groww_elss,https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth,Groww - HDFC ELSS Tax Saver Fund Direct Plan Growth,Groww,1,2026-11-01T07:17:18Z,2026-10-30,hdfc-elss-tax-saver-direct-growth,HDFC ELSS Tax Saver Fund Direct Plan Growth,HDFC Mutual Fund,ELSS,Direct,Growth,minimum_sip,minimum_investments,fact_group,"Scheme: HDFC ELSS Tax Saver Fund Direct Plan Growth
+AMC: HDFC Mutual Fund | Category: ELSS | Plan: Direct | Option: Growth
+Fact: Minimum investments
+Minimum SIP: ₹500
+Minimum lumpsum investment: ₹500
+Minimum additional investment: ₹500
+Source: https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth
+Scraped: 2026-11-01",85,c90ec4cd50de93d4b9e8c304c6155303895af2879957e52fbed67d76ca0864e0,structure_aware_fact_cards_v1
+groww_elss__scheme_basics__cbf36e1a,groww_elss,https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth,Groww - HDFC ELSS Tax Saver Fund Direct Plan Growth,Groww,1,2026-11-01T07:17:18Z,2026-10-30,hdfc-elss-tax-saver-direct-growth,HDFC ELSS Tax Saver Fund Direct Plan Growth,HDFC Mutual Fund,ELSS,Direct,Growth,scheme_basics,scheme_basics,fact_group,"Scheme: HDFC ELSS Tax Saver Fund Direct Plan Growth
+AMC: HDFC Mutual Fund | Category: ELSS | Plan: Direct | Option: Growth
+Fact: Scheme basics
+Scheme name: HDFC ELSS Tax Saver Fund Direct Plan Growth
+AMC: HDFC Mutual Fund
+Category: ELSS
+Plan: Direct
+Option: Growth
+Launch date: 2013-01-01
+ISIN: INF179K01YS4
+Registrar: CAMS
+Source: https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth
+Scraped: 2026-11-01",107,cbf36e1acf4095308eea7301331d94c981fca410f97e645e15294ebb8f94de61,structure_aware_fact_cards_v1
+groww_mid_cap__expense_ratio__f228cea0,groww_mid_cap,https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth,Groww - HDFC Mid Cap Fund Direct Growth,Groww,1,2026-11-01T07:17:21Z,2026-10-30,hdfc-mid-cap-direct-growth,HDFC Mid Cap Fund Direct Growth,HDFC Mutual Fund,Mid Cap,Direct,Growth,expense_ratio,key_stats,fact_card,"Scheme: HDFC Mid Cap Fund Direct Growth
+AMC: HDFC Mutual Fund | Category: Mid Cap | Plan: Direct | Option: Growth
+Fact: Expense ratio
+Value: 0.74%
+Source: https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+Scraped: 2026-11-01",59,f228cea09f01ded7f2acdfda8ead758013bad108803b06501bb3ddd554293458,structure_aware_fact_cards_v1
+groww_mid_cap__exit_load__2493eb2f,groww_mid_cap,https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth,Groww - HDFC Mid Cap Fund Direct Growth,Groww,1,2026-11-01T07:17:21Z,2026-10-30,hdfc-mid-cap-direct-growth,HDFC Mid Cap Fund Direct Growth,HDFC Mutual Fund,Mid Cap,Direct,Growth,exit_load,exit_load,fact_card,"Scheme: HDFC Mid Cap Fund Direct Growth
+AMC: HDFC Mutual Fund | Category: Mid Cap | Plan: Direct | Option: Growth
+Fact: Exit load
+Value: 1% if redeemed within 1 year
+Source: https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+Scraped: 2026-11-01",64,2493eb2f44c0642bfe93ad22e2a0cb409225f6fb20dd3f1b39ea7f3ee56550e6,structure_aware_fact_cards_v1
+groww_mid_cap__riskometer__e9d45cef,groww_mid_cap,https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth,Groww - HDFC Mid Cap Fund Direct Growth,Groww,1,2026-11-01T07:17:21Z,2026-10-30,hdfc-mid-cap-direct-growth,HDFC Mid Cap Fund Direct Growth,HDFC Mutual Fund,Mid Cap,Direct,Growth,riskometer,key_stats,fact_card,"Scheme: HDFC Mid Cap Fund Direct Growth
+AMC: HDFC Mutual Fund | Category: Mid Cap | Plan: Direct | Option: Growth
+Fact: Riskometer level
+Value: Very High Risk
+Source: https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+Scraped: 2026-11-01",62,e9d45cef7c77e176a2c0a93a3e07cb83f0c8a09763b9578c27f21b1af3240c9c,structure_aware_fact_cards_v1
+groww_mid_cap__benchmark__7f929856,groww_mid_cap,https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth,Groww - HDFC Mid Cap Fund Direct Growth,Groww,1,2026-11-01T07:17:21Z,2026-10-30,hdfc-mid-cap-direct-growth,HDFC Mid Cap Fund Direct Growth,HDFC Mutual Fund,Mid Cap,Direct,Growth,benchmark,benchmark,fact_card,"Scheme: HDFC Mid Cap Fund Direct Growth
+AMC: HDFC Mutual Fund | Category: Mid Cap | Plan: Direct | Option: Growth
+Fact: Benchmark
+Value: NIFTY Midcap 150 Total Return Index
+Source: https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+Scraped: 2026-11-01",66,7f92985695df277868608705a80cb66a337a8658f4fdbb7a5a3e6ffbf2e46397,structure_aware_fact_cards_v1
+groww_mid_cap__aum__7bf26fac,groww_mid_cap,https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth,Groww - HDFC Mid Cap Fund Direct Growth,Groww,1,2026-11-01T07:17:21Z,2026-10-30,hdfc-mid-cap-direct-growth,HDFC Mid Cap Fund Direct Growth,HDFC Mutual Fund,Mid Cap,Direct,Growth,aum,key_stats,fact_card,"Scheme: HDFC Mid Cap Fund Direct Growth
+AMC: HDFC Mutual Fund | Category: Mid Cap | Plan: Direct | Option: Growth
+Fact: Fund size (AUM)
+Value: ₹101,856.00 Cr
+Source: https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+Scraped: 2026-11-01",62,7bf26fac2c331341b9cdd13ac760a4c389c53f8933150a18bbcbda57e4a109a2,structure_aware_fact_cards_v1
+groww_mid_cap__minimum_sip__db2efc34,groww_mid_cap,https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth,Groww - HDFC Mid Cap Fund Direct Growth,Groww,1,2026-11-01T07:17:21Z,2026-10-30,hdfc-mid-cap-direct-growth,HDFC Mid Cap Fund Direct Growth,HDFC Mutual Fund,Mid Cap,Direct,Growth,minimum_sip,minimum_investments,fact_group,"Scheme: HDFC Mid Cap Fund Direct Growth
+AMC: HDFC Mutual Fund | Category: Mid Cap | Plan: Direct | Option: Growth
+Fact: Minimum investments
+Minimum SIP: ₹100
+Minimum lumpsum investment: ₹100
+Minimum additional investment: ₹100
+Source: https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+Scraped: 2026-11-01",79,db2efc348279451a45566acb814384b6367fed8c4ce14d00e724d4b08f8a2afd,structure_aware_fact_cards_v1
+groww_mid_cap__scheme_basics__dfb6ac2b,groww_mid_cap,https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth,Groww - HDFC Mid Cap Fund Direct Growth,Groww,1,2026-11-01T07:17:21Z,2026-10-30,hdfc-mid-cap-direct-growth,HDFC Mid Cap Fund Direct Growth,HDFC Mutual Fund,Mid Cap,Direct,Growth,scheme_basics,scheme_basics,fact_group,"Scheme: HDFC Mid Cap Fund Direct Growth
+AMC: HDFC Mutual Fund | Category: Mid Cap | Plan: Direct | Option: Growth
+Fact: Scheme basics
+Scheme name: HDFC Mid Cap Fund Direct Growth
+AMC: HDFC Mutual Fund
+Category: Mid Cap
+Plan: Direct
+Option: Growth
+Launch date: 2013-01-01
+ISIN: INF179K01XQ0
+Registrar: CAMS
+Source: https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+Scraped: 2026-11-01",99,dfb6ac2bf3fd8ec27de554e7ce6cc6f8b05d83e4370ebd3becdb9f45efd43fdf,structure_aware_fact_cards_v1
+groww_mid_cap__scheme_basics__241c4ff3,groww_mid_cap,https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth,Groww - HDFC Mid Cap Fund Direct Growth,Groww,1,2026-11-01T07:17:21Z,2026-10-30,hdfc-mid-cap-direct-growth,HDFC Mid Cap Fund Direct Growth,HDFC Mutual Fund,Mid Cap,Direct,Growth,scheme_basics,about,narrative,"Scheme: HDFC Mid Cap Fund Direct Growth
+AMC: HDFC Mutual Fund | Category: Mid Cap | Plan: Direct | Option: Growth
+Fact: Investment objective
+The scheme seeks to provide long-term capital appreciation/income by investing predominantly in Mid-Cap companies.
+Source: https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+Scraped: 2026-11-01",87,241c4ff37c6bbe393fa6d99b38f888f4d0eb5501c08b817cf6712a782319f850,structure_aware_fact_cards_v1
+groww_help_tax_proof__statement_download__7367d8cb,groww_help_tax_proof,https://groww.in/help/my-account/ma-others/where-can-i-get-the-tax-proof-for-section-80c,Groww Help - Where can I get the tax proof for section 80C?,Groww,2,2026-11-01T07:17:23Z,2026-11-01,,,HDFC Mutual Fund,,,,statement_download,statement_steps,steps,"Topic: Where can I get the tax proof for section 80C?
+Fact: Statement download
+You can request your tax proof for Section 80C by downloading the Mutual Fund-ELSS statement.
+Steps to request your ELSS Statement:
+Click the button below to go directly to the 'Reports' section.
+Steps:
+1. Go to your profile.
+2. Select the 'Reports' option.
+3. Under 'Tax', find 'Mutual Fund - Capital Gains'.
+4. Choose the financial year and click 'Download'.
+Source: https://groww.in/help/my-account/ma-others/where-can-i-get-the-tax-proof-for-section-80c
+Scraped: 2026-11-01",139,7367d8cb038ffd896296e506a5822cb84afb439f931b2b6f5f13f533583d5880,structure_aware_fact_cards_v1
+groww_help_elss_statement__statement_download__864a099a,groww_help_elss_statement,https://groww.in/help/mutual-funds/order/how-to-download-tax-statement--for-elss--77,Groww Help - What is a mutual funds ELSS report?,Groww,2,2026-11-01T07:17:25Z,2026-11-01,,,HDFC Mutual Fund,,,,statement_download,statement_steps,steps,"Topic: What is a mutual funds ELSS report?
+Fact: Statement download
+The ELSS (Equity Linked Savings Scheme) report shows your purchases in ELSS mutual funds and the total amount you invested in the selected financial year.
+Here's how you can download it:
+Steps:
+1. Go to your profile.
+2. Select the 'Reports' option.
+3. Under 'Tax', find 'Mutual Fund - ELSS statement'.
+4. Click on 'Download'.
+Source: https://groww.in/help/mutual-funds/order/how-to-download-tax-statement--for-elss--77
+Scraped: 2026-11-01",127,864a099abea84e807871a20fdaedf915037111a8e368cc85f865d56b9acc2e7a,structure_aware_fact_cards_v1
+groww_help_cas_cams__statement_download__43f1743e,groww_help_cas_cams,https://groww.in/help/mutual-funds/mf-track-and-switch/how-to-generate-my-consolidated-account-statement--cas--from-the-cams-website--60,Groww Help - How do I generate my CAS from CAMS?,Groww,2,2026-11-01T07:17:27Z,2026-11-01,,,HDFC Mutual Fund,,,,statement_download,statement_steps,steps,"Topic: How do I generate my Consolidated Account Statement (CAS) from CAMS?
+Fact: Statement download
+To get your CAS, follow these steps:
+You can click on the 'CAMS' button below to go directly to the CAS - CAMS+KFintech page.
+Steps:
+1. Visit the official CAMS website.
+2. Click on 'MF Investor.'
+3. Select 'Statement' and then choose 'CAS - CAMS+KFintech.'
+4. Statement Type: Detailed
+5. Period: Specific Period (From 1st Jan 1990 to the present date)
+6. Folio Listing: With zero balance folios
+7. Email ID: Linked to your investments
+8. Password: PAN number in uppercase
+9. Submit the details.
+10. You'll receive your CAS via email from in PDF format.
+Source: https://groww.in/help/mutual-funds/mf-track-and-switch/how-to-generate-my-consolidated-account-statement--cas--from-the-cams-website--60
+Scraped: 2026-11-01",205,43f1743e3b11f123e92a409c4cbdfb1f9033cc99fefbff139fdb8e3cc87a91ae,structure_aware_fact_cards_v1
+groww_help_cas_what__definition__95dc22c7,groww_help_cas_what,https://groww.in/help/mutual-funds/mf-track-and-switch/what-is-cas--why-is-it-needed--99,Groww Help - What is CAS and why do I need it?,Groww,2,2026-11-01T07:17:30Z,2026-11-01,,,HDFC Mutual Fund,,,,definition,definition,definition,"Topic: What is CAS and why do I need it?
+Fact: What is CAS and why do I need it?
+CAS stands for Consolidated Account Statement 📊, issued by CAMS/KFin Technologies. It's a detailed statement that summarizes all your investments linked to your email ID and PAN, covering various financial products like Mutual Funds, Stocks, and other securities.
+Why is CAS important?
+Keep your CAS handy to stay on top of your investment game!
+Track Investments: It helps you see all your investments in one place.
+Tax Filing: It's handy for tax filing as it shows your earnings and capital gains.
+Source: https://groww.in/help/mutual-funds/mf-track-and-switch/what-is-cas--why-is-it-needed--99
+Scraped: 2026-11-01",175,95dc22c7e5fcf1d94c6edfe5c792bc595c1d73b33c6c2276f00dee4d71efab71,structure_aware_fact_cards_v1
+amfi_ter__expense_ratio__e0afe347,amfi_ter,https://www.amfiindia.com/ter-of-mf-schemes,AMFI - TER of Mutual Fund Schemes,AMFI,2,2026-11-01T07:22:38Z,2026-11-01,,,HDFC Mutual Fund,,,,expense_ratio,definition,definition,"Topic: AMFI - TER of Mutual Fund Schemes
+Fact: TER of Mutual Fund Schemes (part 1 of 2)
+Reference period:
+For April of a financial year (Other than April 2026)- the reference period is April 1 to March 31 of the immediately preceding financial year.
+For months May to March, the reference period is April 1 of the current financial year up to the end of the month immediately preceding the month of disclosure.
+Base Expense Ratio (BER) as per Regulation 66(7) of SEBI (Mutual Funds) Regulations, 2026.
+The same shall be reset monthly and is intended to provide an indicative measure of brokerage cost.
+Transaction cost incurred for the purpose of execution of trade as referred under Regulation 66(10) of SEBI (Mutual Funds) Regulations, 2026. The same shall be reset monthly and is intended to provide an indicative measure of transaction cost.
+GST on the Base TER; and
+Statutory charges such as STT, GST on brokerage and stamp duty incurred for trade execution. The same shall be reset monthly and is intended to provide an indicative measure of statutory cost.
+Source: https://www.amfiindia.com/ter-of-mf-schemes
+Scraped: 2026-11-01",284,e0afe347454eb2a0b76e3e3fff40957b46d3ddb2e854fee8fb2a1ec397b4def0,structure_aware_fact_cards_v1
+amfi_ter__expense_ratio__91841435,amfi_ter,https://www.amfiindia.com/ter-of-mf-schemes,AMFI - TER of Mutual Fund Schemes,AMFI,2,2026-11-01T07:22:38Z,2026-11-01,,,HDFC Mutual Fund,,,,expense_ratio,definition,definition,"Topic: AMFI - TER of Mutual Fund Schemes
+Fact: TER of Mutual Fund Schemes (part 2 of 2)
+Base Expense Ratio of direct plan shall have a lower expense ratio excluding distribution expenses, commission, etc., and no commission shall be paid from such plans.
+Source: https://www.amfiindia.com/ter-of-mf-schemes
+Scraped: 2026-11-01",82,91841435c6216e4a74b95d908a2c6f4bba73262ad5676fac2c2a14b0d39033ff,structure_aware_fact_cards_v1
+amfi_expense_ratio__expense_ratio__d9d2ee59,amfi_expense_ratio,https://www.amfiindia.com/investor/knowledge-center-info?zoneName=expenseRatio,AMFI - Expense Ratio explainer,AMFI,2,2026-11-01T07:22:40Z,2026-11-01,,,HDFC Mutual Fund,,,,expense_ratio,definition,definition,"Topic: AMFI - Expense Ratio explainer
+Fact: Expense Ratio (part 1 of 2)
+Under SEBI (Mutual Funds) Regulations, 1996, Mutual Funds are permitted to charge certain operating expenses for managing a mutual fund scheme – such as sales & marketing / advertising expenses, administrative expenses, transaction costs, investment management fees, registrar fees, custodian fees, audit fees – as a percentage of the fund’s daily net assets.
+All such costs for running and managing a mutual fund scheme are collectively referred to as ‘Total Expense Ratio’ (TER)
+The TER is calculated as a percentage of the Scheme’s average Net Asset Value (NAV). The daily NAV of a mutual fund is disclosed after deducting the expenses.
+Currently, in India, the expense ratio is fungible, i.e., there is no limit on any particular type of allowed expense as long as the total expense ratio is within the prescribed limit. The regulatory limits of TER that can be incurred/charged to the fund by a Mutual Fund AMC have been specified under Regulation 52 of SEBI Mutual Fund Regulations.
+Source: https://www.amfiindia.com/investor/knowledge-center-info?zoneName=expenseRatio
+Scraped: 2026-11-01",292,d9d2ee5990d225df96fae97ff7223de75722245512430766e6cf56595b3f68c1,structure_aware_fact_cards_v1
+amfi_expense_ratio__expense_ratio__3b6ec041,amfi_expense_ratio,https://www.amfiindia.com/investor/knowledge-center-info?zoneName=expenseRatio,AMFI - Expense Ratio explainer,AMFI,2,2026-11-01T07:22:40Z,2026-11-01,,,HDFC Mutual Fund,,,,expense_ratio,definition,definition,"Topic: AMFI - Expense Ratio explainer
+Fact: Expense Ratio (part 2 of 2)
+Effective from April 1, 2020 the TER limit has been revised as follows.
+In addition, mutual funds have been allowed to charge up to 30 bps more, if the new inflows from retail investors from beyond top 30 cities (B30) cities are at least (a) 30% of gross new inflows in the scheme or (b) 15% of the average assets under management (year to date) of the scheme, whichever is higher. This is essentially to encourage inflows into mutual funds from tier - 2 and tier - 3 cities.
+TER has a direct bearing on a scheme’s NAV – the lower the expense ratio of a scheme, the higher the NAV . Thus, TER is an important parameter while selecting a mutual fund scheme.
+As per the current SEBI Regulations, mutual funds are required to disclose the TER of all schemes on a daily basis on their websites as well as AMFI’s website.
+Source: https://www.amfiindia.com/investor/knowledge-center-info?zoneName=expenseRatio
+Scraped: 2026-11-01",249,3b6ec0419fe3eec5de2eb0d4113cbdf4005002182e4cfac808756b0b5328a6be,structure_aware_fact_cards_v1
+amfi_cas__statement_download__4bf3df61,amfi_cas,https://www.amfiindia.com/online-center/download-cas,AMFI - Download CAS,AMFI,2,2026-11-01T07:22:43Z,2026-11-01,,,HDFC Mutual Fund,,,,statement_download,statement_download,steps,"Topic: AMFI - Download CAS
+Fact: Statement download
+Download CAS
+CAMS: https://www.camsonline.com/Investors/Statements/Consolidated-Account-Statement
+KFintech: https://mfs.kfintech.com/investor/General/ConsolidatedAccountStatement
+Source: https://www.amfiindia.com/online-center/download-cas
+Scraped: 2026-11-01",78,4bf3df61103bf8c5457827b855d9901253e693b5a3498e5bda0b4f8ee8eb9cfe,structure_aware_fact_cards_v1
+sebi_riskometer__riskometer__3fa5be25,sebi_riskometer,https://investor.sebi.gov.in/riskometer.html,SEBI Investor - Understanding the Riskometer,SEBI,2,2026-11-01T07:18:04Z,2026-02-19,,,HDFC Mutual Fund,,,,riskometer,definition,definition,"Topic: SEBI Investor - Understanding the Riskometer
+Fact: Understanding the Riskometer
+Investing is an essential part of personal finance, but it comes with its fair share of risks. To help investors make informed decisions, the Securities and Exchange Board of India (SEBI) introduced a tool called the Riskometer. This tool provides a clear and visual representation of the risk level associated with a particular mutual fund scheme, allowing investors to match their risk appetite with investment options.
+Source: https://investor.sebi.gov.in/riskometer.html
+Scraped: 2026-11-01",146,3fa5be25bfe23b5e6e2ec3cbe6dbee35e064c436b84b7d40c32a012be55c7e5f,structure_aware_fact_cards_v1
+sebi_riskometer__riskometer__a8648173,sebi_riskometer,https://investor.sebi.gov.in/riskometer.html,SEBI Investor - Understanding the Riskometer,SEBI,2,2026-11-01T07:18:04Z,2026-02-19,,,HDFC Mutual Fund,,,,riskometer,definition,definition,"Topic: SEBI Investor - Understanding the Riskometer
+Fact: What is a Riskometer?
+The Riskometer is a risk-measuring tool used in the mutual fund industry to depict the risk level of a mutual fund scheme. It is mandatory for asset management companies to display the Riskometer on their schemes as per guidelines by SEBI.
+The Riskometer simplifies complex risk assessments, giving investors a snapshot of the potential risks involved in a fund, ranging from low to very high.
+Source: https://investor.sebi.gov.in/riskometer.html
+Scraped: 2026-11-01",137,a86481730973666a02abdd181d601dcfec0014875c067aed383d600a305cc0a7,structure_aware_fact_cards_v1
+sebi_riskometer__riskometer__fb0f05e5,sebi_riskometer,https://investor.sebi.gov.in/riskometer.html,SEBI Investor - Understanding the Riskometer,SEBI,2,2026-11-01T07:18:04Z,2026-02-19,,,HDFC Mutual Fund,,,,riskometer,definition,definition,"Topic: SEBI Investor - Understanding the Riskometer
+Fact: How Does the Riskometer Work?
+The Riskometer classifies mutual fund schemes into five risk categories:
+Each level is color-coded to improve visual clarity for investors:
+The classification is based on several factors, such as:
+Low Risk: Investments are considered safe, with minimal volatility.
+Low to Moderate Risk: Slightly higher risk than low-risk funds but still relatively stable.
+Moderately High Risk: Investments with significant exposure to market volatility.
+High Risk: Investment with higher risk than moderate.
+Low Risk: Irish Green
+Low to Moderate Risk: Chartreuse
+Moderate Risk: Neon Yellow
+Moderately High Risk: Caramel
+High Risk: Dark Orange
+Very High Risk: Red
+The nature of the underlying assets (equity, debt, or hybrid).
+Market volatility
+Credit risk and interest rate sensitivity.
+Source: https://investor.sebi.gov.in/riskometer.html
+Scraped: 2026-11-01",233,fb0f05e5a4e76b54a7571e5410af1f67066c15242e8f94ae5fdd8cd91c8cc6c6,structure_aware_fact_cards_v1
+sebi_riskometer__riskometer__1d78e9de,sebi_riskometer,https://investor.sebi.gov.in/riskometer.html,SEBI Investor - Understanding the Riskometer,SEBI,2,2026-11-01T07:18:04Z,2026-02-19,,,HDFC Mutual Fund,,,,riskometer,definition,definition,"Topic: SEBI Investor - Understanding the Riskometer
+Fact: Benefits of the Riskometer (part 1 of 2)
+Risk Assessment: The Riskometer helps investors gauge the risk level of a mutual fund scheme before investing.
+Decision Making: Investors can align their risk appetite with the right fund category.
+Transparency: It ensures that mutual funds are transparent about their risk levels, fostering trust.
+Simplification: The visual representation is easy to understand, making it accessible to novice investors.
+Informed Decisions: It helps investors choose funds that match their financial goals and risk tolerance.
+Standardized Tool: Being a regulatory mandate, it ensures consistency across all fund houses.
+Prevention of Mismatched Investments: Avoids scenarios where low-risk investors end up in high-risk schemes inadvertently.
+The risk levels are reviewed periodically and updated based on changing market conditions
+Fund houses must include the Riskometer in their fact sheets and promotional materials.
+It applies to all mutual fund categories, including equity, debt, and hybrid funds.
+Source: https://investor.sebi.gov.in/riskometer.html
+Scraped: 2026-11-01",291,1d78e9ded6677c49cb38e55c87f9fe2d1635d2aaa03e5b393a9002dd5983f868,structure_aware_fact_cards_v1
+sebi_riskometer__riskometer__e49d9c70,sebi_riskometer,https://investor.sebi.gov.in/riskometer.html,SEBI Investor - Understanding the Riskometer,SEBI,2,2026-11-01T07:18:04Z,2026-02-19,,,HDFC Mutual Fund,,,,riskometer,definition,definition,"Topic: SEBI Investor - Understanding the Riskometer
+Fact: Benefits of the Riskometer (part 2 of 2)
+It applies to all mutual fund categories, including equity, debt, and hybrid funds.
+It is required to adhere to SEBI guidelines, ensuring uniformity.
+Source: https://investor.sebi.gov.in/riskometer.html
+Scraped: 2026-11-01",81,e49d9c70eff5fced3d6d1f97054d7c8aa8aaf18630dd0bb0a71f60b38f31836e,structure_aware_fact_cards_v1
+sebi_elss__definition__ae4f24e3,sebi_elss,https://investor.sebi.gov.in/elss.html,SEBI Investor - A Guide to ELSS,SEBI,2,2026-11-01T07:18:07Z,2026-02-19,,,HDFC Mutual Fund,,,,definition,definition,definition,"Topic: SEBI Investor - A Guide to ELSS
+Fact: A Guide to ELSS (Equity-Linked Savings Scheme)
+Equity-Linked Savings Scheme (ELSS) is a type of mutual fund designed specifically for individuals seeking tax savings under Section 80C of the Income Tax Act, 1961.
+ELSS has gained popularity due to its dual advantage of tax efficiency and wealth creation over the long term. It is an ideal choice for those who are comfortable with market-linked investments and aim to build wealth while saving on taxes.
+Source: https://investor.sebi.gov.in/elss.html
+Scraped: 2026-11-01",142,ae4f24e39ae33898186d078ec164cce631cea8739fb87027e29c344b469a0c64,structure_aware_fact_cards_v1
+sebi_elss__definition__4d60ff31,sebi_elss,https://investor.sebi.gov.in/elss.html,SEBI Investor - A Guide to ELSS,SEBI,2,2026-11-01T07:18:07Z,2026-02-19,,,HDFC Mutual Fund,,,,definition,definition,definition,"Topic: SEBI Investor - A Guide to ELSS
+Fact: Meaning of ELSS
+An ELSS is a diversified equity mutual fund where at least 80% of the corpus is invested in equity and equity-related instruments. It has a lock-in period of three years, which is the shortest among all tax-saving investment options under Section 80C.
+Source: https://investor.sebi.gov.in/elss.html
+Scraped: 2026-11-01",95,4d60ff319942a1b47c6f3ec72176a00692457d5848dedbe25534682cbf0245f2,structure_aware_fact_cards_v1
+sebi_elss__definition__948c162f,sebi_elss,https://investor.sebi.gov.in/elss.html,SEBI Investor - A Guide to ELSS,SEBI,2,2026-11-01T07:18:07Z,2026-02-19,,,HDFC Mutual Fund,,,,definition,definition,definition,"Topic: SEBI Investor - A Guide to ELSS
+Fact: How ELSS Works
+Investment: Investors can invest a lump sum or opt for a Systematic Investment Plan (SIP) to contribute small amounts regularly.
+Lock-in Period: Once invested, the amount is locked in for three years. During this period, you cannot withdraw the funds.
+Tax Deduction: Under Section 80C, an investment of up to ₹1.5 lakh in ELSS qualifies for a tax deduction in a financial year.
+Source: https://investor.sebi.gov.in/elss.html
+Scraped: 2026-11-01",126,948c162facdf5575c76c48a143d3df188318a8cc5d26149000a9ea47b1c985e4,structure_aware_fact_cards_v1
+sebi_elss__definition__9a0ab08d,sebi_elss,https://investor.sebi.gov.in/elss.html,SEBI Investor - A Guide to ELSS,SEBI,2,2026-11-01T07:18:07Z,2026-02-19,,,HDFC Mutual Fund,,,,definition,definition,definition,"Topic: SEBI Investor - A Guide to ELSS
+Fact: Benefits of ELSS
+Tax Savings : ELSS is a preferred option for those looking to reduce their taxable income.
+Discipline : The lock-in period ensures disciplined investing and prevents impulsive withdrawals.
+Flexibility : Investors can opt for SIP or lump sum investments, depending on their financial goals and cash flow.
+Professional Management : The fund is managed by experienced professionals, ensuring informed investment decisions
+Source: https://investor.sebi.gov.in/elss.html
+Scraped: 2026-11-01",137,9a0ab08d1605951745ba562c87e14d31be55add133618809f7d374d10483cb56,structure_aware_fact_cards_v1
+sebi_elss__definition__2184ce22,sebi_elss,https://investor.sebi.gov.in/elss.html,SEBI Investor - A Guide to ELSS,SEBI,2,2026-11-01T07:18:07Z,2026-02-19,,,HDFC Mutual Fund,,,,definition,definition,definition,"Topic: SEBI Investor - A Guide to ELSS
+Fact: Key Features of ELSS
+Equity Exposure: Invests predominantly in equity and equity-related instruments.
+Minimum Investment: Investors can start with as low as Rs. 500.
+Risk Factor: Being equity-based, it comes with market risks, which can be mitigated through long-term investment.
+Growth and Dividend Options: Investors can choose between growth (capital appreciation) and dividend (periodic pay-outs) options.
+Tax Efficiency: Provides dual tax benefits under Section 80C and through LTCG tax exemptions.
+Source: https://investor.sebi.gov.in/elss.html
+Scraped: 2026-11-01",154,2184ce220c12e02c21a6e8ead43ef73bff24aa6517c9b5168954b7091146f4d0,structure_aware_fact_cards_v1
+sebi_elss__lock_in__f5cf3d5c,sebi_elss,https://investor.sebi.gov.in/elss.html,SEBI Investor - A Guide to ELSS,SEBI,2,2026-11-01T07:18:07Z,2026-02-19,,,HDFC Mutual Fund,,,,lock_in,definition,fact_card,"Topic: SEBI Investor - A Guide to ELSS
+Fact: Lock-in period
+Value: three years
+Source: https://investor.sebi.gov.in/elss.html
+Scraped: 2026-11-01",37,f5cf3d5ca1237f65f805187d84d3e2288aea48f5735129eca2e97d80e7a6c6ee,structure_aware_fact_cards_v1

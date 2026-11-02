@@ -1,0 +1,136 @@
+# All non-secret pipeline settings live here.
+# Secrets live only in .env. Environment variables override the values below.
+# `${NAME}` / `${NAME:-default}` placeholders are expanded from the environment.
+
+app:
+  name: "Groww MF Facts Assistant"
+  env: "local"
+  data_dir: "./data"
+  timezone: "Asia/Kolkata"
+  log_level: "INFO"
+
+corpus:
+  sources_file: "./config/sources.yaml"
+  fetch:
+    user_agent: "GrowwMFFactsDemo/0.1 (public-pages demo)"
+    timeout_seconds: 30
+    delay_seconds: 2
+    max_retries: 2
+    respect_robots_txt: true
+    render_js: "auto"            # auto | always | never
+    cache_raw_html: true
+  refresh:
+    mode: "manual"               # manual | daily
+    stale_after_days: 7
+
+chunking:
+  strategy: "structure_aware_fact_cards_v1"
+  max_tokens: 250
+  min_tokens: 25
+  narrative_max_tokens: 300
+  overlap_tokens: 40
+  add_context_header: true
+  drop_sections:
+    - "returns"
+    - "holdings"
+    - "fund_management"
+    - "compare"
+    - "calculators"
+    - "ratings"
+    - "why_invest"
+
+embedding:
+  provider: "sentence_transformers"
+  model_name: "sentence-transformers/all-MiniLM-L6-v2"
+  revision: "main"
+  device: "cpu"
+  batch_size: 32
+  max_seq_length: 256
+  normalize: true
+  dimension: 384
+  show_progress: true
+
+vector_db:
+  provider: "chroma"
+  persist_directory: "./data/04_vector_db/chroma"
+  collection: "groww_mf_facts__minilm_l6_v2__v1"
+  distance: "cosine"
+  hnsw:
+    m: 16
+    construction_ef: 100
+    search_ef: 50
+
+retrieval:
+  top_k: 8
+  candidate_k: 20
+  min_similarity: 0.35
+  mmr:
+    enabled: true
+    lambda: 0.7
+  scheme_filter: "auto"          # auto | always | never
+  fact_type_boost: 0.05
+  source_priority_bonus: 0.02
+  context_max_tokens: 1200
+
+generation:
+  provider: "${LLM_PROVIDER:-groq}"
+  model: "${LLM_MODEL:-qwen/qwen3.8-27b}"
+  temperature: 0.0
+  max_tokens: 220
+  timeout_seconds: 30
+  max_retries: 1
+  fallback_model: "openai/gpt-oss-120b"
+  fallback_to_extractive: true
+  providers:
+    groq:
+      base_url: "https://api.groq.com/openai/v1"
+      api_key_env: "GROQ_API_KEY"
+    gemini:
+      api_key_env: "GEMINI_API_KEY"
+    openai:
+      api_key_env: "OPENAI_API_KEY"
+    anthropic:
+      api_key_env: "ANTHROPIC_API_KEY"
+    mistral:
+      api_key_env: "MISTRAL_API_KEY"
+
+guardrails:
+  max_input_chars: 500
+  max_sentences: 3
+  max_words: 70
+  require_citation: true
+  citation_allowlist_only: true
+  pii:
+    enabled: true
+    action: "refuse_and_redact"
+  advice:
+    enabled: true
+  performance:
+    enabled: true
+    link_to_factsheet: true
+  prompt_injection:
+    enabled: true
+  banned_output_terms:
+    - "recommend"
+    - "guaranteed"
+    - "risk-free"
+    - "best fund"
+    - "outperform"
+    - "CAGR"
+    - "annualised return"
+
+ui:
+  title: "Groww MF Facts Assistant"
+  welcome: "Ask a fact about HDFC mutual fund schemes — expense ratio, exit load, SIP minimum, ELSS lock-in, risk, benchmark, or statements."
+  examples:
+    - "What is the expense ratio of HDFC Large Cap Fund Direct Growth?"
+    - "What is the ELSS lock-in period?"
+    - "How do I download my capital-gains statement?"
+  disclaimer_short: "Facts-only. No investment advice."
+  show_pipeline_inspector: true
+
+evaluation:
+  golden_set: "./data/07_eval/golden_set.jsonl"
+  min_hit_at_3: 0.90
+  min_fact_accuracy: 0.90
+  min_refusal_accuracy: 0.95

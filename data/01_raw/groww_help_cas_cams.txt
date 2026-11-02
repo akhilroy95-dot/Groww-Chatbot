@@ -1,0 +1,21 @@
+How do I generate my Consolidated Account Statement (CAS) from CAMS?
+Source: https://groww.in/help/mutual-funds/mf-track-and-switch/how-to-generate-my-consolidated-account-statement--cas--from-the-cams-website--60
+Source date: 2026-11-01
+Fetched: 2026-11-01T07:17:27Z
+
+## How do I generate my Consolidated Account Statement (CAS) from CAMS?
+To get your CAS, follow these steps:
+You can click on the 'CAMS' button below to go directly to the CAS - CAMS+KFintech page.
+CAMS
+
+## Steps
+1. Visit the official CAMS website.
+2. Click on 'MF Investor.'
+3. Select 'Statement' and then choose 'CAS - CAMS+KFintech.'
+4. Statement Type: Detailed
+5. Period: Specific Period (From 1st Jan 1990 to the present date)
+6. Folio Listing: With zero balance folios
+7. Email ID: Linked to your investments
+8. Password: PAN number in uppercase
+9. Submit the details.
+10. You'll receive your CAS via email from in PDF format.

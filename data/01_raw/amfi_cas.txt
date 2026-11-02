@@ -1,0 +1,11 @@
+AMFI - Download CAS
+Source: https://www.amfiindia.com/online-center/download-cas
+Source date: 2026-11-01
+Fetched: 2026-11-01T07:22:43Z
+
+## statement_download
+Download CAS
+
+## The following are the URLs for requesting for the e-CAS from CAMS and KFintech:
+CAMS: https://www.camsonline.com/Investors/Statements/Consolidated-Account-Statement
+KFintech: https://mfs.kfintech.com/investor/General/ConsolidatedAccountStatement

@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: groww-mf-facts
+    runtime: python
+    # Free instances have 512 MB RAM; the MiniLM + torch stack is tight.
+    # Switch to starter (2 GB) if the service is OOM-killed during the first request.
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app/ui/streamlit_app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true --browser.gatherUsageStats false
+    healthCheckPath: /_stcore/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.8
+      - key: LLM_PROVIDER
+        value: groq
+      - key: LLM_MODEL
+        value: qwen/qwen3.8-27b
+      - key: GROQ_API_KEY
+        sync: false

@@ -1,0 +1,293 @@
+# Source registry for the Groww MF Facts Assistant.
+#
+# 21 public URLs: 5 core (indexed), 9 support (indexed), 7 citation-only.
+# Anything not listed here cannot be fetched, embedded, or cited.
+#
+# HDFC Mutual Fund pages return 403 to automated clients. They are citation-only:
+# never fetched, never retried, and bot controls are never bypassed.
+
+version: 1
+
+allowlist_domains:
+  - groww.in
+  - hdfcfund.com
+  - files.hdfcfund.com
+  - amfiindia.com
+  - sebi.gov.in
+  - investor.sebi.gov.in
+  - camsonline.com
+
+sources:
+  # ---------------------------------------------------------------- core: AMC
+  - id: groww_amc_hdfc
+    title: "Groww - HDFC Mutual Fund (AMC overview)"
+    url: "https://groww.in/mutual-funds/amc/hdfc-mutual-funds"
+    owner: "Groww"
+    doc_type: "groww_amc"
+    role: "core"
+    source_priority: 1
+    aliases: ["hdfc amc", "hdfc mutual fund", "hdfc fund house"]
+    fetch_method: "httpx"
+    expected_facts: [amc_overview]
+    notes: "AMC basics and scheme list."
+
+  # ------------------------------------------------------------ core: schemes
+  - id: groww_large_cap
+    title: "Groww - HDFC Large Cap Fund Direct Growth"
+    url: "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth"
+    owner: "Groww"
+    doc_type: "groww_scheme"
+    role: "core"
+    source_priority: 1
+    scheme_slug: "hdfc-large-cap-direct-growth"
+    scheme_name: "HDFC Large Cap Fund Direct Growth"
+    category: "Large Cap"
+    plan: "Direct"
+    option: "Growth"
+    aliases: ["hdfc large cap", "large cap fund", "hdfc top 200"]
+    fetch_method: "httpx"
+    expected_facts: [expense_ratio, exit_load, minimum_sip, minimum_lumpsum, riskometer, benchmark]
+
+  - id: groww_flexi_cap
+    title: "Groww - HDFC Flexi Cap Direct Plan Growth"
+    url: "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth"
+    owner: "Groww"
+    doc_type: "groww_scheme"
+    role: "core"
+    source_priority: 1
+    scheme_slug: "hdfc-flexi-cap-direct-growth"
+    scheme_name: "HDFC Flexi Cap Direct Plan Growth"
+    category: "Flexi Cap"
+    plan: "Direct"
+    option: "Growth"
+    aliases: ["hdfc flexi cap", "flexi cap fund", "hdfc equity fund"]
+    fetch_method: "httpx"
+    expected_facts: [expense_ratio, exit_load, minimum_sip, minimum_lumpsum, riskometer, benchmark]
+
+  - id: groww_elss
+    title: "Groww - HDFC ELSS Tax Saver Fund Direct Plan Growth"
+    url: "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth"
+    owner: "Groww"
+    doc_type: "groww_scheme"
+    role: "core"
+    source_priority: 1
+    scheme_slug: "hdfc-elss-tax-saver-direct-growth"
+    scheme_name: "HDFC ELSS Tax Saver Fund Direct Plan Growth"
+    category: "ELSS"
+    plan: "Direct"
+    option: "Growth"
+    aliases: ["hdfc elss", "elss tax saver", "tax saver fund", "elss"]
+    fetch_method: "httpx"
+    expected_facts: [expense_ratio, exit_load, minimum_sip, minimum_lumpsum, riskometer, benchmark, lock_in]
+
+  - id: groww_mid_cap
+    title: "Groww - HDFC Mid Cap Fund Direct Growth"
+    url: "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth"
+    owner: "Groww"
+    doc_type: "groww_scheme"
+    role: "core"
+    source_priority: 1
+    scheme_slug: "hdfc-mid-cap-direct-growth"
+    scheme_name: "HDFC Mid Cap Fund Direct Growth"
+    category: "Mid Cap"
+    plan: "Direct"
+    option: "Growth"
+    aliases: ["hdfc mid cap", "mid cap fund", "midcap"]
+    fetch_method: "httpx"
+    expected_facts: [expense_ratio, exit_load, minimum_sip, minimum_lumpsum, riskometer, benchmark]
+
+  # ----------------------------------------------------------- support: Groww
+  - id: groww_help_tax_proof
+    title: "Groww Help - Where can I get the tax proof for section 80C?"
+    url: "https://groww.in/help/my-account/ma-others/where-can-i-get-the-tax-proof-for-section-80c"
+    owner: "Groww"
+    doc_type: "groww_help"
+    role: "support"
+    source_priority: 2
+    aliases: ["tax proof", "80c proof", "capital gains statement", "tax statement"]
+    fetch_method: "httpx"
+    expected_facts: [statement_download]
+    notes: "Steps to download the Mutual Fund capital-gains statement."
+
+  - id: groww_help_elss_statement
+    title: "Groww Help - What is a mutual funds ELSS report?"
+    url: "https://groww.in/help/mutual-funds/order/how-to-download-tax-statement--for-elss--77"
+    owner: "Groww"
+    doc_type: "groww_help"
+    role: "support"
+    source_priority: 2
+    aliases: ["elss statement", "elss report", "elss tax statement"]
+    fetch_method: "httpx"
+    expected_facts: [statement_download]
+    notes: "Steps to download the ELSS tax statement."
+
+  - id: groww_help_cas_cams
+    title: "Groww Help - How do I generate my CAS from CAMS?"
+    url: "https://groww.in/help/mutual-funds/mf-track-and-switch/how-to-generate-my-consolidated-account-statement--cas--from-the-cams-website--60"
+    owner: "Groww"
+    doc_type: "groww_help"
+    role: "support"
+    source_priority: 2
+    aliases: ["cas from cams", "consolidated account statement cams", "download cas"]
+    fetch_method: "httpx"
+    expected_facts: [statement_download]
+    notes: "Steps to generate CAS on the CAMS website."
+
+  - id: groww_help_cas_what
+    title: "Groww Help - What is CAS and why do I need it?"
+    url: "https://groww.in/help/mutual-funds/mf-track-and-switch/what-is-cas--why-is-it-needed--99"
+    owner: "Groww"
+    doc_type: "groww_help"
+    role: "support"
+    source_priority: 2
+    aliases: ["what is cas", "cas meaning", "consolidated account statement"]
+    fetch_method: "httpx"
+    expected_facts: [definition]
+    notes: "Definition of the Consolidated Account Statement."
+
+  # ------------------------------------------------------------ support: AMFI
+  - id: amfi_ter
+    title: "AMFI - TER of Mutual Fund Schemes"
+    url: "https://www.amfiindia.com/ter-of-mf-schemes"
+    owner: "AMFI"
+    doc_type: "amfi_page"
+    role: "support"
+    source_priority: 2
+    aliases: ["ter", "total expense ratio", "ter data"]
+    fetch_method: "httpx"
+    expected_facts: [definition, expense_ratio]
+    notes: "TER definitions and regulatory notes."
+
+  - id: amfi_expense_ratio
+    title: "AMFI - Expense Ratio explainer"
+    url: "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=expenseRatio"
+    owner: "AMFI"
+    doc_type: "amfi_page"
+    role: "support"
+    source_priority: 2
+    aliases: ["expense ratio meaning", "what is expense ratio", "ter definition"]
+    fetch_method: "httpx"
+    expected_facts: [definition, expense_ratio]
+    notes: "Definition and regulatory background for the expense ratio."
+
+  - id: amfi_cas
+    title: "AMFI - Download CAS"
+    url: "https://www.amfiindia.com/online-center/download-cas"
+    owner: "AMFI"
+    doc_type: "amfi_page"
+    role: "support"
+    source_priority: 2
+    aliases: ["cas download", "amfi cas", "ecas"]
+    fetch_method: "httpx"
+    expected_facts: [statement_download]
+    notes: "How to request the e-CAS from CAMS or KFintech."
+
+  # ------------------------------------------------------ support: SEBI Investor
+  - id: sebi_riskometer
+    title: "SEBI Investor - Understanding the Riskometer"
+    url: "https://investor.sebi.gov.in/riskometer.html"
+    owner: "SEBI"
+    doc_type: "sebi_investor"
+    role: "support"
+    source_priority: 2
+    aliases: ["riskometer", "riskometer meaning", "risk levels"]
+    fetch_method: "httpx"
+    expected_facts: [riskometer, definition]
+    notes: "Riskometer definition and five risk levels."
+
+  - id: sebi_elss
+    title: "SEBI Investor - A Guide to ELSS"
+    url: "https://investor.sebi.gov.in/elss.html"
+    owner: "SEBI"
+    doc_type: "sebi_investor"
+    role: "support"
+    source_priority: 2
+    aliases: ["elss lock in", "elss lock-in", "elss 3 years", "elss guide"]
+    fetch_method: "httpx"
+    expected_facts: [lock_in, definition]
+    notes: "ELSS definition and the three-year lock-in."
+
+  # ------------------------------------------------------- citation-only pages
+  - id: hdfc_request_statement
+    title: "HDFC MF - Request statement"
+    url: "https://www.hdfcfund.com/services/additional-info/request-statement"
+    owner: "HDFC Mutual Fund"
+    doc_type: "hdfc_page"
+    role: "citation_only"
+    source_priority: 3
+    aliases: ["hdfc statement request", "hdfc capital gains statement"]
+    fetch_method: "manual"
+    expected_facts: [statement_download]
+    notes: "BOT 403 - citation-only, never fetched or bypassed."
+
+  - id: hdfc_download_cas
+    title: "HDFC MF - Download CAS"
+    url: "https://www.hdfcfund.com/services/consolidated-account-statement"
+    owner: "HDFC Mutual Fund"
+    doc_type: "hdfc_page"
+    role: "citation_only"
+    source_priority: 3
+    aliases: ["hdfc cas", "hdfc consolidated account statement"]
+    fetch_method: "manual"
+    expected_facts: [statement_download]
+    notes: "BOT 403 - citation-only, never fetched or bypassed."
+
+  - id: hdfc_factsheets
+    title: "HDFC MF - Fund factsheets"
+    url: "https://www.hdfcfund.com/mutual-funds/factsheets"
+    owner: "HDFC Mutual Fund"
+    doc_type: "hdfc_page"
+    role: "citation_only"
+    source_priority: 3
+    aliases: ["hdfc factsheet", "hdfc performance"]
+    fetch_method: "manual"
+    expected_facts: []
+    notes: "BOT 403 - citation-only destination for performance refusals."
+
+  - id: amfi_investor
+    title: "AMFI - Investor corner"
+    url: "https://www.amfiindia.com/investor"
+    owner: "AMFI"
+    doc_type: "amfi_page"
+    role: "citation_only"
+    source_priority: 3
+    aliases: ["amfi investor", "investor education"]
+    fetch_method: "manual"
+    expected_facts: [definition]
+    notes: "Educational fallback for out-of-scope questions."
+
+  - id: sebi_master_circular
+    title: "SEBI - Master Circular for Mutual Funds"
+    url: "https://www.sebi.gov.in/legal/master-circulars/mar-2026/master-circular-for-mutual-funds_100491.html"
+    owner: "SEBI"
+    doc_type: "sebi_circular"
+    role: "citation_only"
+    source_priority: 3
+    aliases: ["sebi master circular", "sebi regulations"]
+    fetch_method: "manual"
+    expected_facts: []
+    notes: "Regulatory authority for refusals; not embedded."
+
+  - id: cams_cas
+    title: "CAMS - Consolidated Account Statement"
+    url: "https://www.camsonline.com/Investors/Statements/Consolidated-Account-Statement"
+    owner: "CAMS"
+    doc_type: "cams_page"
+    role: "citation_only"
+    source_priority: 3
+    aliases: ["cams statement", "cams cas"]
+    fetch_method: "manual"
+    expected_facts: [statement_download]
+    notes: "Statement destination; not embedded."
+
+  - id: hdfc_online_services
+    title: "HDFC MF - Online services for investors"
+    url: "https://www.hdfcfund.com/information/online-services-investors"
+    owner: "HDFC Mutual Fund"
+    doc_type: "hdfc_page"
+    role: "citation_only"
+    source_priority: 3
+    aliases: ["hdfc online services"]
+    fetch_method: "manual"
+    expected_facts: [statement_download]
+    notes: "BOT 403 - citation-only, never fetched or bypassed."

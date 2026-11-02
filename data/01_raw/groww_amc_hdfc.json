@@ -1,0 +1,47 @@
+{
+  "doc_type": "groww_amc",
+  "extractor_version": "groww_amc_v1",
+  "facts": {
+    "amc_overview": {
+      "label": "AMC overview",
+      "section": "amc_overview",
+      "text": "HDFC Mutual Fund. Incorporated: 1999-12-10; Total AUM: ₹934,076.00 Cr; Sponsor: HDFC Ltd., Abrdn Investment Management Limited (AIML) erstwhile (Standard Life Investments).",
+      "unit": null,
+      "value": "HDFC Mutual Fund"
+    }
+  },
+  "fetched_at": "2026-11-01T07:17:14Z",
+  "final_url": "https://groww.in/mutual-funds/amc/hdfc-mutual-funds",
+  "role": "core",
+  "schema_version": 1,
+  "scheme": null,
+  "sections": [
+    {
+      "heading": "AMC overview",
+      "items": [
+        "Fund house: HDFC Mutual Fund",
+        "Incorporated: 1999-12-10",
+        "Total AUM: ₹934,076.00 Cr",
+        "Sponsor: HDFC Ltd., Abrdn Investment Management Limited (AIML) erstwhile (Standard Life Investments)"
+      ],
+      "name": "amc_overview",
+      "paragraphs": []
+    },
+    {
+      "heading": "About the AMC",
+      "items": [],
+      "name": "about",
+      "paragraphs": [
+        "HDFC Asset Management Company Ltd., or HDFC Mutual Fund, is currently the largest mutual fund and actively managed equity mutual fund in India. It is one of the most profitable asset management companies (AMC) in the country.",
+        "The company serviced more than 75000 empanelled distribution partners through 210 branches spread across more than 200 cities in India.",
+        "HDFC Asset Management Company Ltd. received approval to act as an AMC from SEBI back on 30 June 2000 under the registration number MF/044/00/6."
+      ]
+    }
+  ],
+  "source_date": "2026-11-01",
+  "source_id": "groww_amc_hdfc",
+  "source_priority": 1,
+  "title": "HDFC Mutual Fund",
+  "url": "https://groww.in/mutual-funds/amc/hdfc-mutual-funds",
+  "warnings": []
+}

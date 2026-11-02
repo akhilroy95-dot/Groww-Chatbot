@@ -1,0 +1,32 @@
+HDFC Flexi Cap Direct Plan Growth
+Source: https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+Source date: 2026-10-30
+Fetched: 2026-11-01T07:17:16Z
+
+Scheme: scheme_slug=hdfc-flexi-cap-direct-growth | scheme_name=HDFC Flexi Cap Direct Plan Growth | amc=HDFC Mutual Fund | category=Flexi Cap | plan=Direct | option=Growth
+
+## Scheme basics
+1. Scheme name: HDFC Flexi Cap Direct Plan Growth
+2. AMC: HDFC Mutual Fund
+3. Category: Flexi Cap
+4. Plan: Direct
+5. Option: Growth
+6. Launch date: 2013-01-01
+7. ISIN: INF179K01UT0
+8. Registrar: CAMS
+
+## Key stats
+1. Expense ratio: 0.75%
+2. Fund size (AUM): ₹108,547.00 Cr
+3. NAV: ₹2,187.57 (as of 2026-10-30)
+
+## Minimum investments
+1. Minimum SIP: ₹100
+2. Minimum lumpsum investment: ₹100
+3. Minimum additional investment: ₹100
+
+## Exit load
+Exit load: 1% if redeemed within 1 year
+
+## Benchmark
+Benchmark: NIFTY 500 Total Return Index

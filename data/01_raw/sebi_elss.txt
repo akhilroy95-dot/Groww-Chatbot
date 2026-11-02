@@ -1,0 +1,32 @@
+SEBI Investor - A Guide to ELSS
+Source: https://investor.sebi.gov.in/elss.html
+Source date: 2026-02-19
+Fetched: 2026-11-01T07:18:07Z
+
+## A Guide to ELSS (Equity-Linked Savings Scheme)
+Equity-Linked Savings Scheme (ELSS) is a type of mutual fund designed specifically for individuals seeking tax savings under Section 80C of the Income Tax Act, 1961.
+ELSS has gained popularity due to its dual advantage of tax efficiency and wealth creation over the long term. It is an ideal choice for those who are comfortable with market-linked investments and aim to build wealth while saving on taxes.
+
+## Meaning of ELSS
+An ELSS is a diversified equity mutual fund where at least 80% of the corpus is invested in equity and equity-related instruments. It has a lock-in period of three years, which is the shortest among all tax-saving investment options under Section 80C.
+
+## How ELSS Works
+1. Investment: Investors can invest a lump sum or opt for a Systematic Investment Plan (SIP) to contribute small amounts regularly.
+2. Lock-in Period: Once invested, the amount is locked in for three years. During this period, you cannot withdraw the funds.
+3. Tax Deduction: Under Section 80C, an investment of up to ₹1.5 lakh in ELSS qualifies for a tax deduction in a financial year.
+
+## Benefits of ELSS
+1. Tax Savings : ELSS is a preferred option for those looking to reduce their taxable income.
+2. Discipline : The lock-in period ensures disciplined investing and prevents impulsive withdrawals.
+3. Flexibility : Investors can opt for SIP or lump sum investments, depending on their financial goals and cash flow.
+4. Professional Management : The fund is managed by experienced professionals, ensuring informed investment decisions
+
+## Key Features of ELSS
+1. Equity Exposure: Invests predominantly in equity and equity-related instruments.
+2. Minimum Investment: Investors can start with as low as Rs. 500.
+3. Risk Factor: Being equity-based, it comes with market risks, which can be mitigated through long-term investment.
+4. Growth and Dividend Options: Investors can choose between growth (capital appreciation) and dividend (periodic pay-outs) options.
+5. Tax Efficiency: Provides dual tax benefits under Section 80C and through LTCG tax exemptions.
+
+## Lock-in
+Lock-in period: three years

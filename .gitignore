@@ -1,0 +1,41 @@
+# --- secrets & local state ---
+.env
+.env.local
+
+# --- generated data ---
+# Keep the prebuilt index so a deployed app can answer without scraping.
+data/*
+!data/01_raw/
+!data/02_chunks/
+!data/03_embeddings/
+!data/04_vector_db/
+# Request traces and logs are runtime output, not deploy artifacts.
+data/05_retrieval/
+data/06_answers/
+data/07_eval/
+data/logs/
+
+# --- python ---
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# --- os / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- build artifacts that are large or generated ---
+*.npy
+*.npz
+*.log
+# The index needs this one deliberately.
+!data/03_embeddings/embeddings.npy

@@ -1,0 +1,35 @@
+HDFC Mid Cap Fund Direct Growth
+Source: https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth
+Source date: 2026-10-30
+Fetched: 2026-11-01T07:17:21Z
+
+Scheme: scheme_slug=hdfc-mid-cap-direct-growth | scheme_name=HDFC Mid Cap Fund Direct Growth | amc=HDFC Mutual Fund | category=Mid Cap | plan=Direct | option=Growth
+
+## Scheme basics
+1. Scheme name: HDFC Mid Cap Fund Direct Growth
+2. AMC: HDFC Mutual Fund
+3. Category: Mid Cap
+4. Plan: Direct
+5. Option: Growth
+6. Launch date: 2013-01-01
+7. ISIN: INF179K01XQ0
+8. Registrar: CAMS
+
+## Key stats
+1. Expense ratio: 0.74%
+2. Fund size (AUM): ₹101,856.00 Cr
+3. NAV: ₹215.99 (as of 2026-10-30)
+
+## Minimum investments
+1. Minimum SIP: ₹100
+2. Minimum lumpsum investment: ₹100
+3. Minimum additional investment: ₹100
+
+## Exit load
+Exit load: 1% if redeemed within 1 year
+
+## Benchmark
+Benchmark: NIFTY Midcap 150 Total Return Index
+
+## Investment objective
+The scheme seeks to provide long-term capital appreciation/income by investing predominantly in Mid-Cap companies.

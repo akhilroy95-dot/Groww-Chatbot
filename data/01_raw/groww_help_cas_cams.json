@@ -1,0 +1,53 @@
+{
+  "doc_type": "groww_help",
+  "extractor_version": "article_v1",
+  "facts": {
+    "statement_download": {
+      "label": "Statement download",
+      "section": "statement_steps",
+      "text": "Steps: 1. Visit the official CAMS website. 2. Click on 'MF Investor.' 3. Select 'Statement' and then choose 'CAS - CAMS+KFintech.' 4. Statement Type: Detailed 5. Period: Specific Period (From 1st Jan 1990 to the present date) 6. Folio Listing: With zero balance folios 7. Email ID: Linked to your investments 8. Password: PAN number in uppercase 9. Submit the details. 10. You'll receive your CAS via email from in PDF format.",
+      "unit": null,
+      "value": "10 steps"
+    }
+  },
+  "fetched_at": "2026-11-01T07:17:27Z",
+  "final_url": "https://groww.in/help/mutual-funds/mf-track-and-switch/how-to-generate-my-consolidated-account-statement--cas--from-the-cams-website--60",
+  "role": "support",
+  "schema_version": 1,
+  "scheme": null,
+  "sections": [
+    {
+      "heading": "How do I generate my Consolidated Account Statement (CAS) from CAMS?",
+      "items": [],
+      "name": "answer",
+      "paragraphs": [
+        "To get your CAS, follow these steps:",
+        "You can click on the 'CAMS' button below to go directly to the CAS - CAMS+KFintech page.",
+        "CAMS"
+      ]
+    },
+    {
+      "heading": "Steps",
+      "items": [
+        "Visit the official CAMS website.",
+        "Click on 'MF Investor.'",
+        "Select 'Statement' and then choose 'CAS - CAMS+KFintech.'",
+        "Statement Type: Detailed",
+        "Period: Specific Period (From 1st Jan 1990 to the present date)",
+        "Folio Listing: With zero balance folios",
+        "Email ID: Linked to your investments",
+        "Password: PAN number in uppercase",
+        "Submit the details.",
+        "You'll receive your CAS via email from in PDF format."
+      ],
+      "name": "statement_steps",
+      "paragraphs": []
+    }
+  ],
+  "source_date": "2026-11-01",
+  "source_id": "groww_help_cas_cams",
+  "source_priority": 2,
+  "title": "How do I generate my Consolidated Account Statement (CAS) from CAMS?",
+  "url": "https://groww.in/help/mutual-funds/mf-track-and-switch/how-to-generate-my-consolidated-account-statement--cas--from-the-cams-website--60",
+  "warnings": []
+}

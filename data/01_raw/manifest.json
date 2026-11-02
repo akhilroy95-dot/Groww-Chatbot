@@ -1,0 +1,292 @@
+{
+  "sources": [
+    {
+      "bytes": 170024,
+      "content_type": "text/html; charset=utf-8",
+      "extractor_version": "article_v1",
+      "fetched_at": "2026-11-01T07:22:43Z",
+      "final_url": "https://www.amfiindia.com/online-center/download-cas",
+      "http_status": 200,
+      "last_modified": null,
+      "missing_expected": [],
+      "role": "support",
+      "sections_found": [
+        "statement_download",
+        "statement_download"
+      ],
+      "sha256": "9aafd73ae72c71ada9b0f678861fa4c870c2547442731957bef0cf1ed063f18f",
+      "source_date": "2026-11-01",
+      "source_id": "amfi_cas",
+      "url": "https://www.amfiindia.com/online-center/download-cas"
+    },
+    {
+      "bytes": 179380,
+      "content_type": "text/html; charset=utf-8",
+      "extractor_version": "article_v1",
+      "fetched_at": "2026-11-01T07:22:40Z",
+      "final_url": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=expenseRatio",
+      "http_status": 200,
+      "last_modified": null,
+      "missing_expected": [],
+      "role": "support",
+      "sections_found": [
+        "definition"
+      ],
+      "sha256": "f571c80a593cd460c570fd20ecd0ca58b6268374ae883aeeb711cb962b9a61e7",
+      "source_date": "2026-11-01",
+      "source_id": "amfi_expense_ratio",
+      "url": "https://www.amfiindia.com/investor/knowledge-center-info?zoneName=expenseRatio"
+    },
+    {
+      "bytes": 199163,
+      "content_type": "text/html; charset=utf-8",
+      "extractor_version": "article_v1",
+      "fetched_at": "2026-11-01T07:22:38Z",
+      "final_url": "https://www.amfiindia.com/ter-of-mf-schemes",
+      "http_status": 200,
+      "last_modified": null,
+      "missing_expected": [],
+      "role": "support",
+      "sections_found": [
+        "definition",
+        "definition",
+        "definition"
+      ],
+      "sha256": "bcd724eea26af25fc2fba314029f5f0d4732e16ad73563a2b9b066485aa3fe1f",
+      "source_date": "2026-11-01",
+      "source_id": "amfi_ter",
+      "url": "https://www.amfiindia.com/ter-of-mf-schemes"
+    },
+    {
+      "bytes": 249942,
+      "content_type": "text/html; charset=utf-8",
+      "extractor_version": "groww_amc_v1",
+      "fetched_at": "2026-11-01T07:17:14Z",
+      "final_url": "https://groww.in/mutual-funds/amc/hdfc-mutual-funds",
+      "http_status": 200,
+      "last_modified": null,
+      "missing_expected": [],
+      "role": "core",
+      "sections_found": [
+        "amc_overview",
+        "about"
+      ],
+      "sha256": "cb7707c1dda56cba88bd57101848ab084b165a64288ceb80d7d434155a20b838",
+      "source_date": "2026-11-01",
+      "source_id": "groww_amc_hdfc",
+      "url": "https://groww.in/mutual-funds/amc/hdfc-mutual-funds"
+    },
+    {
+      "bytes": 458455,
+      "content_type": "text/html; charset=utf-8",
+      "extractor_version": "groww_scheme_v1",
+      "fetched_at": "2026-11-01T07:17:18Z",
+      "final_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+      "http_status": 200,
+      "last_modified": null,
+      "missing_expected": [],
+      "role": "core",
+      "sections_found": [
+        "scheme_basics",
+        "key_stats",
+        "minimum_investments",
+        "exit_load",
+        "lock_in",
+        "benchmark"
+      ],
+      "sha256": "6d9b592b6483ed8c9e9a1eab8eb13b26268dd76731970d3d311b7f22bb831103",
+      "source_date": "2026-10-30",
+      "source_id": "groww_elss",
+      "url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth"
+    },
+    {
+      "bytes": 501084,
+      "content_type": "text/html; charset=utf-8",
+      "extractor_version": "groww_scheme_v1",
+      "fetched_at": "2026-11-01T07:17:16Z",
+      "final_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+      "http_status": 200,
+      "last_modified": null,
+      "missing_expected": [],
+      "role": "core",
+      "sections_found": [
+        "scheme_basics",
+        "key_stats",
+        "minimum_investments",
+        "exit_load",
+        "benchmark"
+      ],
+      "sha256": "14fd26aca4b8a5fdcea6158428a74e5568659169f2c7593c522da84c3cd3a369",
+      "source_date": "2026-10-30",
+      "source_id": "groww_flexi_cap",
+      "url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth"
+    },
+    {
+      "bytes": 116357,
+      "content_type": "text/html; charset=utf-8",
+      "extractor_version": "article_v1",
+      "fetched_at": "2026-11-01T07:17:27Z",
+      "final_url": "https://groww.in/help/mutual-funds/mf-track-and-switch/how-to-generate-my-consolidated-account-statement--cas--from-the-cams-website--60",
+      "http_status": 200,
+      "last_modified": null,
+      "missing_expected": [],
+      "role": "support",
+      "sections_found": [
+        "answer",
+        "statement_steps"
+      ],
+      "sha256": "780002e4d3914211e60858096e40f73f426b3fadd19367df6773d69a5a87f39c",
+      "source_date": "2026-11-01",
+      "source_id": "groww_help_cas_cams",
+      "url": "https://groww.in/help/mutual-funds/mf-track-and-switch/how-to-generate-my-consolidated-account-statement--cas--from-the-cams-website--60"
+    },
+    {
+      "bytes": 112070,
+      "content_type": "text/html; charset=utf-8",
+      "extractor_version": "article_v1",
+      "fetched_at": "2026-11-01T07:17:30Z",
+      "final_url": "https://groww.in/help/mutual-funds/mf-track-and-switch/what-is-cas--why-is-it-needed--99",
+      "http_status": 200,
+      "last_modified": null,
+      "missing_expected": [],
+      "role": "support",
+      "sections_found": [
+        "definition"
+      ],
+      "sha256": "1a1e2c154e37bcf9aa30d6d39f76933266c5d8a9482ea1a370fa3bee92e55b4a",
+      "source_date": "2026-11-01",
+      "source_id": "groww_help_cas_what",
+      "url": "https://groww.in/help/mutual-funds/mf-track-and-switch/what-is-cas--why-is-it-needed--99"
+    },
+    {
+      "bytes": 114033,
+      "content_type": "text/html; charset=utf-8",
+      "extractor_version": "article_v1",
+      "fetched_at": "2026-11-01T07:17:25Z",
+      "final_url": "https://groww.in/help/mutual-funds/order/how-to-download-tax-statement--for-elss--77",
+      "http_status": 200,
+      "last_modified": null,
+      "missing_expected": [],
+      "role": "support",
+      "sections_found": [
+        "answer",
+        "statement_steps",
+        "note"
+      ],
+      "sha256": "b9574111c3cb65c5804c4eee855d57fc9a067a88ef4fc1a0fac850bdac3650e6",
+      "source_date": "2026-11-01",
+      "source_id": "groww_help_elss_statement",
+      "url": "https://groww.in/help/mutual-funds/order/how-to-download-tax-statement--for-elss--77"
+    },
+    {
+      "bytes": 113691,
+      "content_type": "text/html; charset=utf-8",
+      "extractor_version": "article_v1",
+      "fetched_at": "2026-11-01T07:17:23Z",
+      "final_url": "https://groww.in/help/my-account/ma-others/where-can-i-get-the-tax-proof-for-section-80c",
+      "http_status": 200,
+      "last_modified": null,
+      "missing_expected": [],
+      "role": "support",
+      "sections_found": [
+        "answer",
+        "statement_steps"
+      ],
+      "sha256": "7966974b3570a17f0273048b8ac346037c40060dbd40f7154ae85daa767d3a02",
+      "source_date": "2026-11-01",
+      "source_id": "groww_help_tax_proof",
+      "url": "https://groww.in/help/my-account/ma-others/where-can-i-get-the-tax-proof-for-section-80c"
+    },
+    {
+      "bytes": 460314,
+      "content_type": "text/html; charset=utf-8",
+      "extractor_version": "groww_scheme_v1",
+      "fetched_at": "2026-11-01T07:17:00Z",
+      "final_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "http_status": 200,
+      "last_modified": null,
+      "missing_expected": [],
+      "role": "core",
+      "sections_found": [
+        "scheme_basics",
+        "key_stats",
+        "minimum_investments",
+        "exit_load",
+        "benchmark",
+        "about"
+      ],
+      "sha256": "b54eb724226f8cd93493b2d7a6e435fc4dd0fc75fae8335f83ea417073e182e3",
+      "source_date": "2026-10-30",
+      "source_id": "groww_large_cap",
+      "url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth"
+    },
+    {
+      "bytes": 496604,
+      "content_type": "text/html; charset=utf-8",
+      "extractor_version": "groww_scheme_v1",
+      "fetched_at": "2026-11-01T07:17:21Z",
+      "final_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+      "http_status": 200,
+      "last_modified": null,
+      "missing_expected": [],
+      "role": "core",
+      "sections_found": [
+        "scheme_basics",
+        "key_stats",
+        "minimum_investments",
+        "exit_load",
+        "benchmark",
+        "about"
+      ],
+      "sha256": "005fd2c5b5d86a5e25b2ab6b7f23ae02026747acdee4230f85ace784e43c6b4c",
+      "source_date": "2026-10-30",
+      "source_id": "groww_mid_cap",
+      "url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth"
+    },
+    {
+      "bytes": 14884,
+      "content_type": "text/html; charset=UTF-8",
+      "extractor_version": "article_v1",
+      "fetched_at": "2026-11-01T07:18:07Z",
+      "final_url": "https://investor.sebi.gov.in/elss.html",
+      "http_status": 200,
+      "last_modified": "Thu, 19 Feb 2026 05:30:49 GMT",
+      "missing_expected": [],
+      "role": "support",
+      "sections_found": [
+        "definition",
+        "definition",
+        "definition",
+        "definition",
+        "definition",
+        "lock_in"
+      ],
+      "sha256": "7b5fd4f9657e21f02d6a8a866852b3c5e1ecadc3d5d3416fd6220261ce822a57",
+      "source_date": "2026-02-19",
+      "source_id": "sebi_elss",
+      "url": "https://investor.sebi.gov.in/elss.html"
+    },
+    {
+      "bytes": 15784,
+      "content_type": "text/html; charset=UTF-8",
+      "extractor_version": "article_v1",
+      "fetched_at": "2026-11-01T07:18:04Z",
+      "final_url": "https://investor.sebi.gov.in/riskometer.html",
+      "http_status": 200,
+      "last_modified": "Thu, 19 Feb 2026 05:30:56 GMT",
+      "missing_expected": [],
+      "role": "support",
+      "sections_found": [
+        "definition",
+        "definition",
+        "definition",
+        "definition"
+      ],
+      "sha256": "019e713627d0c3e1ffc1e7a40e9fafcf40d688453d5921f36343eb100fba104b",
+      "source_date": "2026-02-19",
+      "source_id": "sebi_riskometer",
+      "url": "https://investor.sebi.gov.in/riskometer.html"
+    }
+  ],
+  "version": 1
+}

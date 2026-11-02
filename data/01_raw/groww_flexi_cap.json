@@ -1,0 +1,121 @@
+{
+  "doc_type": "groww_scheme",
+  "extractor_version": "groww_scheme_v1",
+  "facts": {
+    "benchmark": {
+      "label": "Benchmark",
+      "section": "benchmark",
+      "text": "Benchmark: NIFTY 500 Total Return Index",
+      "unit": null,
+      "value": "NIFTY 500 Total Return Index"
+    },
+    "exit_load": {
+      "label": "Exit load",
+      "section": "exit_load",
+      "text": "Exit load: 1% if redeemed within 1 year",
+      "unit": null,
+      "value": "1% if redeemed within 1 year"
+    },
+    "expense_ratio": {
+      "label": "Expense ratio",
+      "section": "key_stats",
+      "text": "Expense ratio: 0.75%",
+      "unit": "%",
+      "value": "0.75"
+    },
+    "minimum_lumpsum": {
+      "label": "Minimum lumpsum investment",
+      "section": "minimum_investments",
+      "text": "Minimum lumpsum investment: ₹100",
+      "unit": "INR",
+      "value": "100"
+    },
+    "minimum_sip": {
+      "label": "Minimum SIP",
+      "section": "minimum_investments",
+      "text": "Minimum SIP: ₹100",
+      "unit": "INR",
+      "value": "100"
+    },
+    "riskometer": {
+      "label": "Riskometer level",
+      "section": "key_stats",
+      "text": "Riskometer level: Very High Risk",
+      "unit": null,
+      "value": "Very High"
+    }
+  },
+  "fetched_at": "2026-11-01T07:17:16Z",
+  "final_url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+  "role": "core",
+  "schema_version": 1,
+  "scheme": {
+    "amc": "HDFC Mutual Fund",
+    "category": "Flexi Cap",
+    "option": "Growth",
+    "plan": "Direct",
+    "scheme_name": "HDFC Flexi Cap Direct Plan Growth",
+    "scheme_slug": "hdfc-flexi-cap-direct-growth"
+  },
+  "sections": [
+    {
+      "heading": "Scheme basics",
+      "items": [
+        "Scheme name: HDFC Flexi Cap Direct Plan Growth",
+        "AMC: HDFC Mutual Fund",
+        "Category: Flexi Cap",
+        "Plan: Direct",
+        "Option: Growth",
+        "Launch date: 2013-01-01",
+        "ISIN: INF179K01UT0",
+        "Registrar: CAMS"
+      ],
+      "name": "scheme_basics",
+      "paragraphs": []
+    },
+    {
+      "heading": "Key stats",
+      "items": [
+        "Expense ratio: 0.75%",
+        "Fund size (AUM): ₹108,547.00 Cr",
+        "NAV: ₹2,187.57 (as of 2026-10-30)"
+      ],
+      "name": "key_stats",
+      "paragraphs": []
+    },
+    {
+      "heading": "Minimum investments",
+      "items": [
+        "Minimum SIP: ₹100",
+        "Minimum lumpsum investment: ₹100",
+        "Minimum additional investment: ₹100"
+      ],
+      "name": "minimum_investments",
+      "paragraphs": []
+    },
+    {
+      "heading": "Exit load",
+      "items": [],
+      "name": "exit_load",
+      "paragraphs": [
+        "Exit load: 1% if redeemed within 1 year"
+      ]
+    },
+    {
+      "heading": "Benchmark",
+      "items": [],
+      "name": "benchmark",
+      "paragraphs": [
+        "Benchmark: NIFTY 500 Total Return Index"
+      ]
+    }
+  ],
+  "source_date": "2026-10-30",
+  "source_id": "groww_flexi_cap",
+  "source_priority": 1,
+  "title": "HDFC Flexi Cap Direct Plan Growth",
+  "url": "https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth",
+  "warnings": [
+    "investment objective dropped: performance or advice wording"
+  ]
+}

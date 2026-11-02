@@ -1,0 +1,15 @@
+Where can I get the tax proof for section 80C?
+Source: https://groww.in/help/my-account/ma-others/where-can-i-get-the-tax-proof-for-section-80c
+Source date: 2026-11-01
+Fetched: 2026-11-01T07:17:23Z
+
+## Where can I get the tax proof for section 80C?
+You can request your tax proof for Section 80C by downloading the Mutual Fund-ELSS statement.
+Steps to request your ELSS Statement:
+Click the button below to go directly to the 'Reports' section.
+
+## Steps
+1. Go to your profile.
+2. Select the 'Reports' option.
+3. Under 'Tax', find 'Mutual Fund - Capital Gains'.
+4. Choose the financial year and click 'Download'.

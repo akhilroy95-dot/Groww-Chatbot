@@ -1,0 +1,99 @@
+{
+  "chunks_sha256": "706895912782785fe848354bb9cfed118222cd3c014c9d6ca4d5b425218373c6",
+  "collection": "groww_mf_facts__minilm_l6_v2__v1",
+  "count": 54,
+  "dimension": 384,
+  "distance": "cosine",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_revision": "main",
+  "persist_directory": "C:\\Users\\akhil\\OneDrive\\Desktop\\Groww Chatbot\\data\\04_vector_db\\chroma",
+  "provider": "chroma",
+  "pruned": 0,
+  "rebuilt": false,
+  "sample_ids": [
+    "groww_amc_hdfc__amc_overview__db1f1cef",
+    "groww_amc_hdfc__amc_overview__6cf889b3",
+    "groww_amc_hdfc__amc_overview__1b2979df",
+    "groww_large_cap__expense_ratio__92f74d22",
+    "groww_large_cap__exit_load__e67e7c2e"
+  ],
+  "schema_version": 1,
+  "smoke": {
+    "passed": 5,
+    "queries": [
+      {
+        "passed": true,
+        "query": "expense ratio hdfc large cap",
+        "top_ids": [
+          "groww_large_cap__expense_ratio__92f74d22",
+          "groww_large_cap__scheme_basics__89d4377f",
+          "groww_mid_cap__expense_ratio__f228cea0"
+        ],
+        "top_similarities": [
+          0.646475,
+          0.623524,
+          0.617803
+        ]
+      },
+      {
+        "passed": true,
+        "query": "exit load hdfc mid cap",
+        "top_ids": [
+          "groww_mid_cap__exit_load__2493eb2f",
+          "groww_large_cap__exit_load__e67e7c2e",
+          "groww_mid_cap__scheme_basics__241c4ff3"
+        ],
+        "top_similarities": [
+          0.484855,
+          0.456026,
+          0.446427
+        ]
+      },
+      {
+        "passed": true,
+        "query": "minimum sip elss",
+        "top_ids": [
+          "sebi_elss__definition__948c162f",
+          "sebi_elss__definition__9a0ab08d",
+          "groww_elss__minimum_sip__c90ec4cd"
+        ],
+        "top_similarities": [
+          0.507168,
+          0.434747,
+          0.422871
+        ]
+      },
+      {
+        "passed": true,
+        "query": "elss lock in",
+        "top_ids": [
+          "sebi_elss__definition__9a0ab08d",
+          "sebi_elss__lock_in__f5cf3d5c",
+          "sebi_elss__definition__4d60ff31"
+        ],
+        "top_similarities": [
+          0.527494,
+          0.523566,
+          0.521596
+        ]
+      },
+      {
+        "passed": true,
+        "query": "download capital gains statement",
+        "top_ids": [
+          "groww_help_tax_proof__statement_download__7367d8cb",
+          "amfi_cas__statement_download__4bf3df61",
+          "groww_help_elss_statement__statement_download__864a099a"
+        ],
+        "top_similarities": [
+          0.535852,
+          0.485633,
+          0.471812
+        ]
+      }
+    ],
+    "total": 5
+  },
+  "updated_at": "2026-11-02T17:18:44Z",
+  "upserted": 54
+}

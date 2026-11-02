@@ -1,0 +1,88 @@
+{
+  "doc_type": "sebi_investor",
+  "extractor_version": "article_v1",
+  "facts": {
+    "lock_in": {
+      "label": "Lock-in period",
+      "section": "definition",
+      "text": "Lock-in period: three years",
+      "unit": null,
+      "value": "three years"
+    }
+  },
+  "fetched_at": "2026-11-01T07:18:07Z",
+  "final_url": "https://investor.sebi.gov.in/elss.html",
+  "role": "support",
+  "schema_version": 1,
+  "scheme": null,
+  "sections": [
+    {
+      "heading": "A Guide to ELSS (Equity-Linked Savings Scheme)",
+      "items": [],
+      "name": "definition",
+      "paragraphs": [
+        "Equity-Linked Savings Scheme (ELSS) is a type of mutual fund designed specifically for individuals seeking tax savings under Section 80C of the Income Tax Act, 1961.",
+        "ELSS has gained popularity due to its dual advantage of tax efficiency and wealth creation over the long term. It is an ideal choice for those who are comfortable with market-linked investments and aim to build wealth while saving on taxes."
+      ]
+    },
+    {
+      "heading": "Meaning of ELSS",
+      "items": [],
+      "name": "definition",
+      "paragraphs": [
+        "An ELSS is a diversified equity mutual fund where at least 80% of the corpus is invested in equity and equity-related instruments. It has a lock-in period of three years, which is the shortest among all tax-saving investment options under Section 80C."
+      ]
+    },
+    {
+      "heading": "How ELSS Works",
+      "items": [
+        "Investment: Investors can invest a lump sum or opt for a Systematic Investment Plan (SIP) to contribute small amounts regularly.",
+        "Lock-in Period: Once invested, the amount is locked in for three years. During this period, you cannot withdraw the funds.",
+        "Tax Deduction: Under Section 80C, an investment of up to ₹1.5 lakh in ELSS qualifies for a tax deduction in a financial year."
+      ],
+      "name": "definition",
+      "paragraphs": []
+    },
+    {
+      "heading": "Benefits of ELSS",
+      "items": [
+        "Tax Savings : ELSS is a preferred option for those looking to reduce their taxable income.",
+        "Discipline : The lock-in period ensures disciplined investing and prevents impulsive withdrawals.",
+        "Flexibility : Investors can opt for SIP or lump sum investments, depending on their financial goals and cash flow.",
+        "Professional Management : The fund is managed by experienced professionals, ensuring informed investment decisions"
+      ],
+      "name": "definition",
+      "paragraphs": []
+    },
+    {
+      "heading": "Key Features of ELSS",
+      "items": [
+        "Equity Exposure: Invests predominantly in equity and equity-related instruments.",
+        "Minimum Investment: Investors can start with as low as Rs. 500.",
+        "Risk Factor: Being equity-based, it comes with market risks, which can be mitigated through long-term investment.",
+        "Growth and Dividend Options: Investors can choose between growth (capital appreciation) and dividend (periodic pay-outs) options.",
+        "Tax Efficiency: Provides dual tax benefits under Section 80C and through LTCG tax exemptions."
+      ],
+      "name": "definition",
+      "paragraphs": []
+    },
+    {
+      "heading": "Lock-in",
+      "items": [],
+      "name": "lock_in",
+      "paragraphs": [
+        "Lock-in period: three years"
+      ]
+    }
+  ],
+  "source_date": "2026-02-19",
+  "source_id": "sebi_elss",
+  "source_priority": 2,
+  "title": "SEBI Investor - A Guide to ELSS",
+  "url": "https://investor.sebi.gov.in/elss.html",
+  "warnings": [
+    "dropped an item with performance/advice wording",
+    "dropped an item with performance/advice wording",
+    "dropped an item with performance/advice wording"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "doc_type": "amfi_page",
+  "extractor_version": "article_v1",
+  "facts": {},
+  "fetched_at": "2026-11-01T07:22:43Z",
+  "final_url": "https://www.amfiindia.com/online-center/download-cas",
+  "role": "support",
+  "schema_version": 1,
+  "scheme": null,
+  "sections": [
+    {
+      "heading": null,
+      "items": [],
+      "name": "statement_download",
+      "paragraphs": [
+        "Download CAS"
+      ]
+    },
+    {
+      "heading": "The following are the URLs for requesting for the e-CAS from CAMS and KFintech:",
+      "items": [],
+      "name": "statement_download",
+      "paragraphs": [
+        "CAMS: https://www.camsonline.com/Investors/Statements/Consolidated-Account-Statement",
+        "KFintech: https://mfs.kfintech.com/investor/General/ConsolidatedAccountStatement"
+      ]
+    }
+  ],
+  "source_date": "2026-11-01",
+  "source_id": "amfi_cas",
+  "source_priority": 2,
+  "title": "AMFI - Download CAS",
+  "url": "https://www.amfiindia.com/online-center/download-cas",
+  "warnings": [
+    "dropped a heading with performance/advice wording",
+    "dropped a heading with performance/advice wording"
+  ]
+}

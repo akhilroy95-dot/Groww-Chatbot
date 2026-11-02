@@ -1,0 +1,54 @@
+{
+  "doc_type": "groww_help",
+  "extractor_version": "article_v1",
+  "facts": {
+    "statement_download": {
+      "label": "Statement download",
+      "section": "statement_steps",
+      "text": "Steps: 1. Go to your profile. 2. Select the 'Reports' option. 3. Under 'Tax', find 'Mutual Fund - ELSS statement'. 4. Click on 'Download'.",
+      "unit": null,
+      "value": "4 steps"
+    }
+  },
+  "fetched_at": "2026-11-01T07:17:25Z",
+  "final_url": "https://groww.in/help/mutual-funds/order/how-to-download-tax-statement--for-elss--77",
+  "role": "support",
+  "schema_version": 1,
+  "scheme": null,
+  "sections": [
+    {
+      "heading": "What is a mutual funds ELSS report?",
+      "items": [],
+      "name": "answer",
+      "paragraphs": [
+        "The ELSS (Equity Linked Savings Scheme) report shows your purchases in ELSS mutual funds and the total amount you invested in the selected financial year.",
+        "Here's how you can download it:"
+      ]
+    },
+    {
+      "heading": "Steps",
+      "items": [
+        "Go to your profile.",
+        "Select the 'Reports' option.",
+        "Under 'Tax', find 'Mutual Fund - ELSS statement'.",
+        "Click on 'Download'."
+      ],
+      "name": "statement_steps",
+      "paragraphs": []
+    },
+    {
+      "heading": "Note",
+      "items": [],
+      "name": "note",
+      "paragraphs": [
+        "Note: The password to open the report is your PAN number in capital letters."
+      ]
+    }
+  ],
+  "source_date": "2026-11-01",
+  "source_id": "groww_help_elss_statement",
+  "source_priority": 2,
+  "title": "What is a mutual funds ELSS report?",
+  "url": "https://groww.in/help/mutual-funds/order/how-to-download-tax-statement--for-elss--77",
+  "warnings": []
+}

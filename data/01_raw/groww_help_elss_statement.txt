@@ -1,0 +1,17 @@
+What is a mutual funds ELSS report?
+Source: https://groww.in/help/mutual-funds/order/how-to-download-tax-statement--for-elss--77
+Source date: 2026-11-01
+Fetched: 2026-11-01T07:17:25Z
+
+## What is a mutual funds ELSS report?
+The ELSS (Equity Linked Savings Scheme) report shows your purchases in ELSS mutual funds and the total amount you invested in the selected financial year.
+Here's how you can download it:
+
+## Steps
+1. Go to your profile.
+2. Select the 'Reports' option.
+3. Under 'Tax', find 'Mutual Fund - ELSS statement'.
+4. Click on 'Download'.
+
+## Note
+Note: The password to open the report is your PAN number in capital letters.

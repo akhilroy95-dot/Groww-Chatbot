@@ -1,0 +1,21 @@
+AMFI - TER of Mutual Fund Schemes
+Source: https://www.amfiindia.com/ter-of-mf-schemes
+Source date: 2026-11-01
+Fetched: 2026-11-01T07:22:38Z
+
+## definition
+TER of MF Schemes
+
+## Total Expense Ratio (TER) of Mutual Fund Schemes
+Category
+
+## Disclaimer :
+Reference period:
+For April of a financial year (Other than April 2026)- the reference period is April 1 to March 31 of the immediately preceding financial year.
+For months May to March, the reference period is April 1 of the current financial year up to the end of the month immediately preceding the month of disclosure.
+1. Base Expense Ratio (BER) as per Regulation 66(7) of SEBI (Mutual Funds) Regulations, 2026.
+2. The same shall be reset monthly and is intended to provide an indicative measure of brokerage cost.
+3. Transaction cost incurred for the purpose of execution of trade as referred under Regulation 66(10) of SEBI (Mutual Funds) Regulations, 2026. The same shall be reset monthly and is intended to provide an indicative measure of transaction cost.
+4. GST on the Base TER; and
+5. Statutory charges such as STT, GST on brokerage and stamp duty incurred for trade execution. The same shall be reset monthly and is intended to provide an indicative measure of statutory cost.
+6. Base Expense Ratio of direct plan shall have a lower expense ratio excluding distribution expenses, commission, etc., and no commission shall be paid from such plans.

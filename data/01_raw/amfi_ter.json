@@ -1,0 +1,53 @@
+{
+  "doc_type": "amfi_page",
+  "extractor_version": "article_v1",
+  "facts": {},
+  "fetched_at": "2026-11-01T07:22:38Z",
+  "final_url": "https://www.amfiindia.com/ter-of-mf-schemes",
+  "role": "support",
+  "schema_version": 1,
+  "scheme": null,
+  "sections": [
+    {
+      "heading": null,
+      "items": [],
+      "name": "definition",
+      "paragraphs": [
+        "TER of MF Schemes"
+      ]
+    },
+    {
+      "heading": "Total Expense Ratio (TER) of Mutual Fund Schemes",
+      "items": [],
+      "name": "definition",
+      "paragraphs": [
+        "Category"
+      ]
+    },
+    {
+      "heading": "Disclaimer :",
+      "items": [
+        "Base Expense Ratio (BER) as per Regulation 66(7) of SEBI (Mutual Funds) Regulations, 2026.",
+        "The same shall be reset monthly and is intended to provide an indicative measure of brokerage cost.",
+        "Transaction cost incurred for the purpose of execution of trade as referred under Regulation 66(10) of SEBI (Mutual Funds) Regulations, 2026. The same shall be reset monthly and is intended to provide an indicative measure of transaction cost.",
+        "GST on the Base TER; and",
+        "Statutory charges such as STT, GST on brokerage and stamp duty incurred for trade execution. The same shall be reset monthly and is intended to provide an indicative measure of statutory cost.",
+        "Base Expense Ratio of direct plan shall have a lower expense ratio excluding distribution expenses, commission, etc., and no commission shall be paid from such plans."
+      ],
+      "name": "definition",
+      "paragraphs": [
+        "Reference period:",
+        "For April of a financial year (Other than April 2026)- the reference period is April 1 to March 31 of the immediately preceding financial year.",
+        "For months May to March, the reference period is April 1 of the current financial year up to the end of the month immediately preceding the month of disclosure."
+      ]
+    }
+  ],
+  "source_date": "2026-11-01",
+  "source_id": "amfi_ter",
+  "source_priority": 2,
+  "title": "AMFI - TER of Mutual Fund Schemes",
+  "url": "https://www.amfiindia.com/ter-of-mf-schemes",
+  "warnings": [
+    "dropped an item with performance/advice wording"
+  ]
+}
