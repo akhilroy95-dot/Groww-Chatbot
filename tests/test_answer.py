@@ -150,6 +150,8 @@ def test_provider_error_falls_back_to_extractive(settings, registry) -> None:
 
     assert summary.result.mode == "extractive"
     assert summary.result.status == "answered"
+    assert summary.result.reason == "llm_error"
+    assert summary.llm.get("error_kind") == "provider"
 
 
 def test_no_llm_client_uses_extractive_mode(settings, registry) -> None:
@@ -234,7 +236,12 @@ def test_enforce_length_keeps_at_most_three_sentences_and_seventy_words() -> Non
     assert len(trimmed_long.split()) <= 70
 
 
-def test_configured_settings_still_load_without_a_key() -> None:
-    settings = load_settings(PROJECT_ROOT / "config" / "config.yaml")
+def test_configured_settings_still_load_without_a_key(tmp_path) -> None:
+    # Load the shipped config only: a developer's .env may select another
+    # provider, and that is not what this test is about.
+    settings = load_settings(
+        PROJECT_ROOT / "config" / "config.yaml",
+        env_file=tmp_path / ".env",
+    )
     assert settings.llm_provider == "groq"
     assert settings.generation.model

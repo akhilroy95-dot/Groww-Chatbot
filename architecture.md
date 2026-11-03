@@ -593,17 +593,19 @@ class LLMResponse:
     finish_reason: str | None
 ```
 
-The generator depends only on this protocol. Provider selection happens once at startup in `app/llm/factory.py`; no pipeline module ever imports `groq` or `anthropic`.
+The generator depends only on this protocol. Provider selection happens once at startup in `app/llm/client.py`; no pipeline module ever imports `groq` or `anthropic`.
 
 ### 8.2 Adapters
 
+All transports use `httpx` directly; no vendor SDK is imported at runtime.
+
 | Adapter | Transport | JSON strategy | Notes |
 |---|---|---|---|
-| `groq_client` | OpenAI-compatible `POST /chat/completions` via httpx | `response_format={"type":"json_object"}` | Default; base URL configurable |
-| `openai_client` | official `openai` SDK | `response_format={"type":"json_object"}` | Same code path shape as Groq |
-| `gemini_client` | `google-genai` | `response_mime_type="application/json"` | Schema hint passed as text |
-| `anthropic_client` | `anthropic` SDK | prompt-enforced JSON + prefill `{` | No native JSON mode; parser must be tolerant |
-| `mistral_client` | `mistralai` | `response_format={"type":"json_object"}` | — |
+| `OpenAICompatibleClient` (`groq`) | `POST /chat/completions` | `response_format={"type":"json_object"}` | Default; retries once without `response_format` if the provider rejects it |
+| `OpenAICompatibleClient` (`openai`) | `POST /chat/completions` | `response_format={"type":"json_object"}` | Same code path as Groq |
+| `OpenAICompatibleClient` (`mistral`) | `POST /chat/completions` | `response_format={"type":"json_object"}` | Same code path as Groq |
+| `AnthropicClient` | `POST /v1/messages` | prompt-enforced JSON | System prompt is a top-level field; content blocks are concatenated; no native JSON mode |
+| `gemini` | — | — | Not wired; raises `LLMUnavailable` and falls back to extractive mode |
 
 Cross-adapter rules:
 

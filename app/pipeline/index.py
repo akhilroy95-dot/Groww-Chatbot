@@ -16,8 +16,11 @@ vectors from two embedding models can never share a collection.
 
 from __future__ import annotations
 
+import atexit
 import hashlib
 import json
+import shutil
+import tempfile
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
@@ -416,7 +419,30 @@ def _persist_path(settings: Settings) -> Path:
     return path if path.is_absolute() else (PROJECT_ROOT / path)
 
 
-def _client(persist: Path):
+# Chroma rewrites its SQLite/HNSW files whenever a client opens the directory.
+# Expect that would (a) dirty the committed index after every query and (b)
+# fail outright on a read-only filesystem, so read paths work on a copy.
+_RUNTIME_COPIES: dict[str, Path] = {}
+
+
+def _runtime_copy(persist: Path) -> Path:
+    key = str(persist.resolve())
+    cached = _RUNTIME_COPIES.get(key)
+    if cached is not None and cached.exists():
+        return cached
+    if not persist.is_dir():
+        raise IndexBuildError(
+            f"no vector DB at {persist}\n"
+            "fix: run python -m app.cli index to build it"
+        )
+    temporary = Path(tempfile.mkdtemp(prefix="groww-chroma-")) / "chroma"
+    shutil.copytree(persist, temporary)
+    _RUNTIME_COPIES[key] = temporary
+    atexit.register(shutil.rmtree, temporary.parent, ignore_errors=True)
+    return temporary
+
+
+def _client(persist: Path, *, read_only: bool = False):
     try:
         import chromadb
         from chromadb.config import Settings as ChromaSettings
@@ -427,7 +453,10 @@ def _client(persist: Path):
             "     (on Python 3.15 see requirements.txt for the --no-deps install)"
         ) from exc
 
-    persist.mkdir(parents=True, exist_ok=True)
+    if read_only:
+        persist = _runtime_copy(persist)
+    else:
+        persist.mkdir(parents=True, exist_ok=True)
     return chromadb.PersistentClient(
         path=str(persist),
         settings=ChromaSettings(anonymized_telemetry=False),

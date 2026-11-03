@@ -483,10 +483,16 @@ class AnswerService:
                     reason="validation_failed",
                 )
         else:
+            if client is None:
+                reason = "llm_unavailable"
+            elif llm_meta.get("error_kind") == "provider":
+                reason = "llm_error"
+            else:
+                reason = "invalid_json"
             result = self._extractive_result(
                 request_id=request_id,
                 retrieval=retrieval,
-                reason="llm_unavailable" if client is None else "invalid_json",
+                reason=reason,
             )
 
         timings = {"total": int((time.perf_counter() - started) * 1000)}
@@ -579,8 +585,13 @@ class AnswerService:
                     parsed = AnswerSchema(**payload)
                     break
                 last_error = "response was not valid JSON"
-            except (LLMError, ValidationError, TypeError, ValueError) as exc:
+                llm_meta["error_kind"] = "invalid_json"
+            except LLMError as exc:
                 last_error = str(exc)
+                llm_meta["error_kind"] = "provider"
+            except (ValidationError, TypeError, ValueError) as exc:
+                last_error = str(exc)
+                llm_meta["error_kind"] = "invalid_json"
 
         # Optional secondary model fallback (same provider).
         if parsed is None and generation.fallback_model:
@@ -609,8 +620,13 @@ class AnswerService:
                     parsed = AnswerSchema(**payload)
                 else:
                     last_error = "fallback response was not valid JSON"
-            except (LLMError, ValidationError, TypeError, ValueError) as exc:
+                    llm_meta["error_kind"] = "invalid_json"
+            except LLMError as exc:
                 last_error = str(exc)
+                llm_meta["error_kind"] = "provider"
+            except (ValidationError, TypeError, ValueError) as exc:
+                last_error = str(exc)
+                llm_meta["error_kind"] = "invalid_json"
 
         if last_error:
             llm_meta["error"] = last_error
@@ -736,6 +752,7 @@ class AnswerService:
             scheme_slug=retrieval.scheme_slug,
             cited=top,
             evidence=self._evidence(top),
+            reason=reason,
         )
 
     def _render_terminal(
@@ -777,13 +794,14 @@ class AnswerService:
         scheme_slug: str | None,
         cited: Candidate | None,
         evidence: dict[str, object] | None = None,
+        reason: str | None = None,
     ) -> AnswerResult:
         entry = _source_entry(self.registry, source_id, "groww_amc_hdfc")
         date = _source_date(cited) or last_source_date(self.settings, entry.id)
         return AnswerResult(
             request_id=request_id,
             status="answered",
-            reason=None,
+            reason=reason,
             body=enforce_length(
                 sanitize_body(body),
                 max_sentences=self.settings.guardrails.max_sentences,

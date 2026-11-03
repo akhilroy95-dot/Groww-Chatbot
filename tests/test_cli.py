@@ -22,6 +22,10 @@ _CLEANED_ENV_KEYS = (
 
 def run_cli(*args: str, timeout: int = 120) -> subprocess.CompletedProcess[str]:
     env = {key: value for key, value in os.environ.items() if key not in _CLEANED_ENV_KEYS}
+    # A real process variable wins over .env, so pin the shipped default
+    # provider: a developer's own .env cannot change what these tests assert.
+    env["LLM_PROVIDER"] = "groq"
+    env["LLM_MODEL"] = "qwen/qwen3.8-27b"
     env["PYTHONIOENCODING"] = "utf-8"
     env["PYTHONUTF8"] = "1"
     return subprocess.run(

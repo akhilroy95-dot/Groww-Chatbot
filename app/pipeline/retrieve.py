@@ -873,7 +873,7 @@ def retrieve(
     result.timings_ms["embed"] = int((time.perf_counter() - encode_started) * 1000)
 
     query_started = time.perf_counter()
-    client = _client(_persist_path(settings))
+    client = _client(_persist_path(settings), read_only=True)
     collection = _open_collection(client, settings)
     candidates = _query(
         collection,

@@ -14,17 +14,28 @@
 
 ## Required environment variables
 
+Pick **one** live-LLM provider; the app falls back to extractive answers when
+the provider is missing or fails.
+
 | Variable | Value | Secret? |
 |---|---|---|
-| `GROQ_API_KEY` | your Groq API key | **yes** |
+| `GROQ_API_KEY` | your Groq API key (free at <https://console.groq.com/keys>) | **yes** |
 | `LLM_PROVIDER` | `groq` | no |
 | `LLM_MODEL` | `qwen/qwen3.8-27b` | no |
 | `APP_ENV` | `production` | no |
 | `PYTHON_VERSION` | `3.12.8` | no |
 
+Alternative provider (wired in `app/llm/client.py`):
+
+| Variable | Value | Secret? |
+|---|---|---|
+| `ANTHROPIC_API_KEY` | your Anthropic API key (must have credit) | **yes** |
+| `LLM_PROVIDER` | `anthropic` | no |
+| `LLM_MODEL` | `claude-sonnet-4-5` | no |
+
 Set these in the hosting dashboard, **never** in `.env.example` or in Git.
-`GROQ_API_KEY` is what enables live LLM answers; without it the app still works
-in extractive mode.
+Without a working key the app still answers from the index in extractive mode;
+the answer status then shows `llm_unavailable` or `llm_error` with the reason.
 
 ## Option A — Render (recommended)
 
@@ -69,21 +80,75 @@ https://<app-name>.streamlit.app/2_Pipeline_Inspector?debug=1
 
 ## Option C — Vercel
 
-A direct Vercel deployment is **not supported** for this Streamlit app. The
-practical options are:
+A direct Vercel deployment of `streamlit run` is **not possible**. Streamlit is
+a stateful Tornado server: the browser opens a WebSocket to a process that must
+stay alive for the whole session. Vercel Functions are request-scoped HTTP
+handlers with a size limit and no persistent WebSocket server, so the app cannot
+run there. There is no `vercel.json` that changes this.
 
-1. **Frontend/backend split (the only real Vercel option).** Keep a Next.js or
-   static frontend on Vercel and move the RAG pipeline to a long-lived API
-   service (Render/Railway/Fly.io). The frontend calls the API over HTTPS. This
-   requires a new API layer and changes to the UI.
-2. **Vercel as a landing page only.** Put a static page on Vercel that links to
-   the Streamlit app hosted elsewhere.
-3. **Rewrite the UI.** Replace Streamlit with a Vercel-compatible Next.js UI and
-   expose the Python pipeline as an HTTP API. This is a new deployment
-   architecture, not a configuration change.
+If Vercel is a hard requirement, use the split architecture below. It needs a
+small API layer that does not exist yet; the Streamlit app cannot be reused
+as-is.
 
-Do not add a `vercel.json` that points at `streamlit run`: Vercel will build it
-but the deployed function cannot keep the Streamlit server and WebSocket alive.
+### C1. API host (Render/Railway/Fly.io) — parameters
+
+| Setting | Value |
+|---|---|
+| Root directory | repository root |
+| Build command | `pip install -r requirements.txt` |
+| Start command | `uvicorn api.main:app --host 0.0.0.0 --port $PORT` (after adding `api/main.py`) |
+| Health check | `/health` |
+| Python | `3.12.8` |
+| Env | `GROQ_API_KEY` (secret), `LLM_PROVIDER=groq`, `LLM_MODEL=qwen/qwen3.8-27b` |
+| Env | `APP_ENV=production`, `ALLOWED_ORIGIN=https://<vercel-app>.vercel.app` |
+
+The API should expose `POST /ask` with `{"query": "..."}` and return the same
+`AnswerResult` shape (`status`, `body`, `citation_url`, `citation_label`,
+`last_updated_from_sources`, `mode`, `reason`). Call
+`AnswerService.answer_with_trace()` from `app/pipeline/answer.py`; do not
+expose the pipeline inspector on the public API.
+
+### C2. Vercel project — parameters
+
+| Setting | Value |
+|---|---|
+| Framework preset | Next.js |
+| Root directory | `web/` (new frontend) |
+| Build command | `npm run build` (default) |
+| Output directory | `.next` (default) |
+| Install command | `npm install` (default) |
+| Node version | `20.x` or `22.x` |
+
+Environment variables:
+
+| Variable | Value |
+|---|---|
+| `NEXT_PUBLIC_API_URL` | `https://<api-host>.onrender.com` |
+| `API_SHARED_SECRET` | random string, also set on the API host (optional) |
+
+The Vercel function only proxies to the API. If the key must stay server-side,
+add `app/api/ask/route.ts` that forwards the request with the secret; never put
+provider keys in `NEXT_PUBLIC_*`.
+
+### C3. Vercel CLI steps
+
+```powershell
+npm i -g vercel
+vercel login
+vercel link
+vercel env add NEXT_PUBLIC_API_URL production
+vercel --prod
+```
+
+### C4. What not to do
+
+- Do not commit `vercel.json` with `"builds": [{"src": "app/ui/streamlit_app.py", "use": "@vercel/python"}]`:
+  it builds, but the function dies at the first WebSocket upgrade.
+- Do not put `GROQ_API_KEY` / `ANTHROPIC_API_KEY` in `NEXT_PUBLIC_*`; those
+  values are shipped to the browser.
+
+The simplest path that keeps this app unchanged is **Render** (Option A) or
+**Streamlit Community Cloud** (Option B).
 
 ## Local run
 

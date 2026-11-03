@@ -12,6 +12,8 @@ from pathlib import Path
 
 import pytest
 
+from app import config
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 _LLM_ENV_KEYS = (
@@ -29,10 +31,14 @@ _LLM_ENV_KEYS = (
 
 
 @pytest.fixture(autouse=True)
-def isolate_llm_env(monkeypatch: pytest.MonkeyPatch) -> None:
+def isolate_llm_env(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     """Remove provider/model/key variables, then restore them afterwards."""
     for key in _LLM_ENV_KEYS:
         monkeypatch.delenv(key, raising=False)
+    # Also ignore the developer's real .env: without this, a local
+    # LLM_PROVIDER=anthropic would silently change what these tests assert.
+    # Tests that need a dotenv file write and pass their own.
+    monkeypatch.setattr(config, "DEFAULT_ENV_PATH", tmp_path / ".env")
 
 
 @pytest.fixture

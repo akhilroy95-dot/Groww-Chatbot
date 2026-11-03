@@ -173,7 +173,7 @@ class ArtifactReader:
         try:
             from ..pipeline.index import _client, _collection_names, _persist_path
 
-            client = _client(_persist_path(self.settings))
+            client = _client(_persist_path(self.settings), read_only=True)
             name = self.settings.vector_db.collection
             if name not in _collection_names(client):
                 return {"error": f"collection {name!r} does not exist"}

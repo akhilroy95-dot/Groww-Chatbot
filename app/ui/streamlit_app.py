@@ -106,9 +106,16 @@ def _render_answer(result: AnswerResult) -> None:
     st.caption(f"Last updated from sources: {result.last_updated_from_sources}")
 
     if result.mode == "extractive":
+        hints = {
+            "llm_unavailable": "no API key configured",
+            "llm_error": "the LLM provider returned an error",
+            "invalid_json": "the LLM response was not valid JSON",
+            "validation_failed": "the LLM answer failed citation or number checks",
+        }
+        hint = hints.get(result.reason or "", "extractive mode")
         st.caption(
             "Answer extracted mechanically from the top indexed fact card "
-            "(no LLM key configured or LLM output rejected)."
+            f"({hint})."
         )
 
     with st.expander("Why this answer?"):

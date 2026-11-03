@@ -719,7 +719,11 @@ Full suite:
 - [x] PII is refused without echo, and the input is cleared.
 - [x] Advice, performance, other-AMC, and unsupported-HDFC refusals each carry one
       relevant link.
-- [ ] Live LLM-mode call: blocked until the user adds `GROQ_API_KEY` to `.env`.
+- [x] Live LLM call reaches the provider. The supplied `ANTHROPIC_API_KEY`
+      authenticates, but the account returns HTTP 400 `credit balance is too
+      low`; the answer path then falls back to verified extractive mode with
+      `llm_error` shown in the status. A funded key or a Groq key is still
+      needed to capture a successful LLM-mode answer.
 
 ### Environment notes
 
@@ -730,8 +734,15 @@ Full suite:
 - `.env` was created from `.env.example`; `GROQ_API_KEY` is intentionally blank.
   Without a key the app runs in verified extractive mode.
 - Default generation config: Groq with `qwen/qwen3.8-27b`; the client also accepts
-  OpenAI and Mistral.  Gemini and Anthropic are refused by the adapter and fall
-  back to the extractive path.
+  OpenAI, Mistral, and Anthropic (Messages API). Gemini is refused by the
+  adapter and falls back to the extractive path.
+- Runtime retrieval opens Chroma through `_client(..., read_only=True)`, which
+  copies the collection to a temp directory. Chroma rewrites its SQLite/HNSW
+  files on open, so without the copy every query dirtied the committed index
+  and a read-only deployment filesystem would fail.
+- Tests ignore the developer's real `.env` by remapping
+  `config.DEFAULT_ENV_PATH`; `tests/test_llm_client.py` covers the Anthropic
+  request shape and error handling.
 - Run the app with:
 
 ```powershell

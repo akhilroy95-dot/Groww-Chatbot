@@ -25,12 +25,8 @@ chromadb>=0.5
 #               opentelemetry-exporter-otlp-proto-grpc tokenizers pypika tqdm
 # See Docs/BUILD_LOG.md phase 4 environment notes.
 
-# Generation (phase 6) — only the active adapter's SDK is imported at runtime
-groq>=0.9
-openai>=1.30
-google-genai>=0.3
-anthropic>=0.34
-mistralai>=0.4
+# Generation (phase 6) — providers are called over httpx; no vendor SDKs needed
+# (chat/completions for groq/openai/mistral, Messages API for anthropic).
 
 # UI (phase 6)
 streamlit>=1.66
